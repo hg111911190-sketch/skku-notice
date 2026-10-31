@@ -35,10 +35,16 @@ def text(s):
     return re.sub(r'\s+', ' ', html.unescape(TAG_RE.sub('', s))).strip()
 
 
-def fetch(url):
+def fetch(url, tries=3):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (skku-notice aggregator)"})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return r.read().decode("utf-8", errors="replace")
+    for i in range(tries):
+        try:
+            with urllib.request.urlopen(req, timeout=45) as r:
+                return r.read().decode("utf-8", errors="replace")
+        except Exception:
+            if i == tries - 1:
+                raise
+            time.sleep(3)
 
 
 def parse(page_html, source):
