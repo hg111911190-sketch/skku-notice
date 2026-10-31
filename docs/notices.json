@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31 23:50",
+ "updated": "2026-10-31 23:52",
  "sources": [
   {
    "id": "skku",
@@ -11,19 +11,19 @@
    "id": "ice",
    "name": "정보통신대학",
    "url": "https://ice.skku.edu/ice/notice.do",
-   "ok": false
+   "ok": true
   },
   {
    "id": "eee",
    "name": "전자전기공학부",
    "url": "https://eee.skku.edu/eee/notice.do",
-   "ok": false
+   "ok": true
   },
   {
    "id": "futurecar",
    "name": "미래자동차",
    "url": "https://swb.skku.edu/futurecar/notice.do",
-   "ok": false
+   "ok": true
   }
  ],
  "items": [
@@ -35,7 +35,7 @@
    "category": "채용/모집",
    "dept": "김동호",
    "date": "2026-10-31",
-   "views": 663,
+   "views": 681,
    "pinned": false
   },
   {
@@ -46,7 +46,7 @@
    "category": "행사/세미나",
    "dept": "사회과학연구원",
    "date": "2026-10-31",
-   "views": 5826,
+   "views": 5829,
    "pinned": false
   },
   {
@@ -57,7 +57,7 @@
    "category": "채용/모집",
    "dept": "법학전문대학원행정실",
    "date": "2026-10-30",
-   "views": 23592,
+   "views": 23724,
    "pinned": true
   },
   {
@@ -68,7 +68,7 @@
    "category": "채용/모집",
    "dept": "오주이",
    "date": "2026-10-30",
-   "views": 2109,
+   "views": 2115,
    "pinned": false
   },
   {
@@ -79,7 +79,7 @@
    "category": "채용/모집",
    "dept": "성균인문아카데미",
    "date": "2026-10-30",
-   "views": 1934,
+   "views": 1940,
    "pinned": false
   },
   {
@@ -90,7 +90,7 @@
    "category": "일반",
    "dept": "보안담당자",
    "date": "2026-10-30",
-   "views": 1372,
+   "views": 1378,
    "pinned": false
   },
   {
@@ -112,7 +112,7 @@
    "category": "행사/세미나",
    "dept": "이재규",
    "date": "2026-10-30",
-   "views": 62669,
+   "views": 62675,
    "pinned": false
   },
   {
@@ -123,7 +123,7 @@
    "category": "행사/세미나",
    "dept": "이재규",
    "date": "2026-10-30",
-   "views": 13988,
+   "views": 14003,
    "pinned": false
   },
   {
@@ -134,7 +134,7 @@
    "category": "행사/세미나",
    "dept": "의료인공지능융합인재양성사업단",
    "date": "2026-10-30",
-   "views": 7348,
+   "views": 7360,
    "pinned": false
   },
   {
@@ -145,7 +145,7 @@
    "category": "채용/모집",
    "dept": "이지혜",
    "date": "2026-10-30",
-   "views": 2981,
+   "views": 2999,
    "pinned": false
   },
   {
@@ -156,7 +156,7 @@
    "category": "채용/모집",
    "dept": "서호성",
    "date": "2026-10-30",
-   "views": 2124,
+   "views": 2127,
    "pinned": false
   },
   {
@@ -167,7 +167,7 @@
    "category": "행사/세미나",
    "dept": "심보경",
    "date": "2026-10-30",
-   "views": 12979,
+   "views": 12990,
    "pinned": false
   },
   {
@@ -211,7 +211,7 @@
    "category": "채용/모집",
    "dept": "이승원",
    "date": "2026-10-29",
-   "views": 38394,
+   "views": 38562,
    "pinned": true
   },
   {
@@ -222,7 +222,7 @@
    "category": "채용/모집",
    "dept": "남승희",
    "date": "2026-10-29",
-   "views": 1525,
+   "views": 1528,
    "pinned": false
   },
   {
@@ -233,7 +233,7 @@
    "category": "일반",
    "dept": "교수학습혁신센터",
    "date": "2026-10-29",
-   "views": 2759,
+   "views": 2762,
    "pinned": false
   },
   {
@@ -266,7 +266,7 @@
    "category": "행사/세미나",
    "dept": "인공지능대학원",
    "date": "2026-10-29",
-   "views": 4954,
+   "views": 4963,
    "pinned": false
   },
   {
@@ -277,7 +277,7 @@
    "category": "학사",
    "dept": "성균융합원",
    "date": "2026-10-29",
-   "views": 13195,
+   "views": 13198,
    "pinned": false
   },
   {
@@ -288,7 +288,7 @@
    "category": "취업",
    "dept": "박은선",
    "date": "2026-10-29",
-   "views": 16891,
+   "views": 16893,
    "pinned": false
   },
   {
@@ -299,7 +299,7 @@
    "category": "학사",
    "dept": "교무팀",
    "date": "2026-10-29",
-   "views": 8519,
+   "views": 8522,
    "pinned": false
   },
   {
@@ -310,7 +310,7 @@
    "category": "학사",
    "dept": "교무팀",
    "date": "2026-10-29",
-   "views": 27903,
+   "views": 27912,
    "pinned": false
   },
   {
@@ -343,7 +343,7 @@
    "category": "채용/모집",
    "dept": "학생성공센터행정실",
    "date": "2026-10-29",
-   "views": 2177,
+   "views": 2183,
    "pinned": false
   },
   {
@@ -365,7 +365,7 @@
    "category": "장학",
    "dept": "성균관대학교 장학담당",
    "date": "2026-10-29",
-   "views": 2468,
+   "views": 2480,
    "pinned": false
   },
   {
@@ -376,7 +376,7 @@
    "category": "채용/모집",
    "dept": "총괄지원팀",
    "date": "2026-10-29",
-   "views": 32381,
+   "views": 32390,
    "pinned": false
   },
   {
@@ -409,7 +409,7 @@
    "category": "채용/모집",
    "dept": "안지운",
    "date": "2026-10-28",
-   "views": 4935,
+   "views": 4953,
    "pinned": false
   },
   {
@@ -420,7 +420,7 @@
    "category": "행사/세미나",
    "dept": "학생성공센터행정실",
    "date": "2026-10-28",
-   "views": 25358,
+   "views": 25363,
    "pinned": false
   },
   {
@@ -475,7 +475,7 @@
    "category": "일반",
    "dept": "학생지원팀",
    "date": "2026-10-20",
-   "views": 199242,
+   "views": 199367,
    "pinned": true
   },
   {
@@ -860,7 +860,7 @@
    "category": "채용/모집",
    "dept": "정보통신대학",
    "date": "2026-09-07",
-   "views": 3957,
+   "views": 3961,
    "pinned": false
   },
   {
