@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SKKU 공지 모아보기</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1b1f24; --muted: #6b7280; --line: #e5e7eb;
+    --accent: #1f6f43; --chip: #eef0f3; --chip-on: #1b1f24; --chip-on-text: #ffffff;
+    --new: #d14343; --pin: #b7791f;
+    --c-skku: #1f6f43; --c-ice: #2563eb; --c-eee: #7c3aed; --c-futurecar: #c2410c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111316; --card: #1a1d21; --text: #e8eaed; --muted: #9aa0a6; --line: #2a2e33;
+      --chip: #24282d; --chip-on: #e8eaed; --chip-on-text: #111316;
+      --new: #f07171; --pin: #e0b04a;
+      --c-skku: #4fbf83; --c-ice: #6ea0ff; --c-eee: #b28cff; --c-futurecar: #f08a4b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif; line-height: 1.5; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 20px 16px 48px; }
+  header h1 { font-size: 22px; margin: 0 0 2px; letter-spacing: -0.02em; }
+  .updated { color: var(--muted); font-size: 13px; }
+  .updated .bad { color: var(--new); }
+  .controls { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 12px 0 10px; margin-bottom: 4px; }
+  .search { width: 100%; padding: 10px 12px; font-size: 15px; border: 1px solid var(--line); border-radius: 10px;
+    background: var(--card); color: var(--text); outline: none; }
+  .search:focus { border-color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; align-items: center; }
+  .chip { border: 0; background: var(--chip); color: var(--text); padding: 6px 11px; border-radius: 999px;
+    font-size: 13px; cursor: pointer; font-family: inherit; }
+  .chip .n { color: var(--muted); margin-left: 3px; }
+  .chip.on { background: var(--chip-on); color: var(--chip-on-text); }
+  .chip.on .n { color: inherit; opacity: .7; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+  .toggle { margin-left: auto; font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 5px; cursor: pointer; user-select: none; }
+  .day { font-size: 13px; font-weight: 600; color: var(--muted); margin: 18px 2px 6px; }
+  ul.list { list-style: none; margin: 0; padding: 0; background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  ul.list li { border-top: 1px solid var(--line); }
+  ul.list li:first-child { border-top: 0; }
+  ul.list a { display: block; padding: 11px 14px; color: inherit; text-decoration: none; }
+  ul.list a:hover { background: var(--chip); }
+  ul.list a:visited .title { color: var(--muted); }
+  .title { font-size: 15px; word-break: keep-all; overflow-wrap: anywhere; }
+  .meta { font-size: 12.5px; color: var(--muted); margin-top: 3px; display: flex; flex-wrap: wrap; gap: 4px 10px; }
+  .src { font-weight: 600; }
+  .badge { font-size: 11px; font-weight: 700; margin-right: 5px; vertical-align: 1px; }
+  .badge.new { color: var(--new); }
+  .badge.pin { color: var(--pin); }
+  .empty { text-align: center; color: var(--muted); padding: 40px 0; }
+  footer { margin-top: 28px; font-size: 12.5px; color: var(--muted); }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>SKKU 공지 모아보기</h1>
+    <div class="updated" id="updated">불러오는 중…</div>
+  </header>
+
+  <div class="controls">
+    <input class="search" id="q" type="search" placeholder="제목·부서·분류 검색" autocomplete="off">
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <div id="out"></div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script src="notices.js"></script>
+<script>
+(function () {
+  var COLORS = { skku: "var(--c-skku)", ice: "var(--c-ice)", eee: "var(--c-eee)", futurecar: "var(--c-futurecar)" };
+  var NEW_DAYS = 2;
+  var data = window.NOTICES;
+  var out = document.getElementById("out");
+
+  if (!data) {
+    out.innerHTML = '<div class="empty">notices.js 가 없습니다. <code>python scrape.py</code> 를 먼저 실행하세요.</div>';
+    document.getElementById("updated").textContent = "";
+    return;
+  }
+
+  var store = {
+    get: function (k, d) { try { var v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  };
+  var state = { src: store.get("src", "all"), hidePinned: store.get("hidePinned", false), q: "" };
+  var names = {};
+  data.sources.forEach(function (s) { names[s.id] = s.name; });
+
+  // 갱신 시각 + 실패한 게시판 표시
+  var bad = data.sources.filter(function (s) { return !s.ok; }).map(function (s) { return s.name; });
+  document.getElementById("updated").innerHTML = "마지막 갱신 " + esc(data.updated) + " (KST)" +
+    (bad.length ? ' · <span class="bad">' + esc(bad.join(", ")) + " 불러오기 실패, 이전 목록 표시</span>" : "");
+  document.getElementById("foot").innerHTML = "원본 게시판: " + data.sources.map(function (s) {
+    return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a>";
+  }).join(" · ");
+
+  var today = new Date(data.updated.slice(0, 10) + "T00:00:00");
+  function isNew(d) { return d && (today - new Date(d + "T00:00:00")) / 864e5 < NEW_DAYS; }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+
+  function filtered(ignoreSrc) {
+    var q = state.q.trim().toLowerCase();
+    return data.items.filter(function (it) {
+      if (!ignoreSrc && state.src !== "all" && it.source !== state.src) return false;
+      if (state.hidePinned && it.pinned) return false;
+      if (q && (it.title + " " + it.dept + " " + it.category).toLowerCase().indexOf(q) < 0) return false;
+      return true;
+    });
+  }
+
+  function renderChips() {
+    var base = filtered(true);
+    var count = { all: base.length };
+    base.forEach(function (it) { count[it.source] = (count[it.source] || 0) + 1; });
+    var html = chip("all", "전체", count.all, null);
+    data.sources.forEach(function (s) { html += chip(s.id, s.name, count[s.id] || 0, COLORS[s.id]); });
+    html += '<label class="toggle"><input type="checkbox" id="pin"' + (state.hidePinned ? " checked" : "") + "> 고정 공지 숨기기</label>";
+    document.getElementById("chips").innerHTML = html;
+    document.getElementById("pin").onchange = function (e) { state.hidePinned = e.target.checked; store.set("hidePinned", state.hidePinned); render(); };
+    Array.prototype.forEach.call(document.querySelectorAll(".chip"), function (b) {
+      b.onclick = function () { state.src = b.dataset.src; store.set("src", state.src); render(); };
+    });
+  }
+  function chip(id, label, n, color) {
+    return '<button class="chip' + (state.src === id ? " on" : "") + '" data-src="' + id + '">' +
+      (color ? '<span class="dot" style="background:' + color + '"></span>' : "") + esc(label) + '<span class="n">' + n + "</span></button>";
+  }
+
+  function render() {
+    renderChips();
+    var items = filtered(false);
+    if (!items.length) { out.innerHTML = '<div class="empty">조건에 맞는 공지가 없습니다.</div>'; return; }
+    var html = "", day = null;
+    items.forEach(function (it) {
+      if (it.date !== day) {
+        if (day !== null) html += "</ul>";
+        day = it.date;
+        html += '<div class="day">' + esc(day || "날짜 없음") + '</div><ul class="list">';
+      }
+      html += '<li><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' +
+        '<div class="title">' +
+          (it.pinned ? '<span class="badge pin">고정</span>' : "") +
+          (isNew(it.date) ? '<span class="badge new">NEW</span>' : "") +
+          esc(it.title) + "</div>" +
+        '<div class="meta"><span class="src" style="color:' + COLORS[it.source] + '">' + esc(names[it.source]) + "</span>" +
+          (it.category ? "<span>" + esc(it.category) + "</span>" : "") +
+          (it.dept ? "<span>" + esc(it.dept) + "</span>" : "") +
+          (it.views != null ? "<span>조회 " + it.views.toLocaleString() + "</span>" : "") +
+        "</div></a></li>";
+    });
+    out.innerHTML = html + "</ul>";
+  }
+
+  var timer;
+  document.getElementById("q").oninput = function (e) {
+    clearTimeout(timer);
+    timer = setTimeout(function () { state.q = e.target.value; render(); }, 120);
+  };
+  render();
+})();
+</script>
+</body>
+</html>
