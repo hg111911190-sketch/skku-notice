@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>인턴 공고 레이더</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1b1f24; --muted: #6b7280; --line: #e5e7eb;
+    --chip: #eef0f3; --chip-on: #1b1f24; --chip-on-text: #ffffff; --link: #2563eb;
+    --ok: #1f7a46; --ok-bg: #e6f4ec; --check: #a16207; --check-bg: #fdf3dc; --no: #6b7280; --no-bg: #eef0f3;
+    --auto: #c2410c; --urgent: #d14343; --star: #e0a100;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111316; --card: #1a1d21; --text: #e8eaed; --muted: #9aa0a6; --line: #2a2e33;
+      --chip: #24282d; --chip-on: #e8eaed; --chip-on-text: #111316; --link: #6ea0ff;
+      --ok: #5fd08f; --ok-bg: #173323; --check: #e8b44a; --check-bg: #3a2f14; --no: #9aa0a6; --no-bg: #24282d;
+      --auto: #f08a4b; --urgent: #f07171; --star: #f2c94c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif; line-height: 1.5; }
+  a { color: var(--link); }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 20px 16px 48px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+  header h1 { font-size: 22px; margin: 0; letter-spacing: -0.02em; }
+  header .nav { margin-left: auto; font-size: 13.5px; }
+  .sub { color: var(--muted); font-size: 13px; width: 100%; }
+  .sub .bad { color: var(--urgent); }
+  .controls { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 12px 0 10px; }
+  .search { width: 100%; padding: 10px 12px; font-size: 15px; border: 1px solid var(--line); border-radius: 10px;
+    background: var(--card); color: var(--text); outline: none; }
+  .search:focus { border-color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; align-items: center; }
+  .chip { border: 0; background: var(--chip); color: var(--text); padding: 6px 11px; border-radius: 999px;
+    font-size: 13px; cursor: pointer; font-family: inherit; }
+  .chip .n { color: var(--muted); margin-left: 3px; }
+  .chip.on { background: var(--chip-on); color: var(--chip-on-text); }
+  .chip.on .n { color: inherit; opacity: .7; }
+  .toggle { font-size: 13px; color: var(--muted); display: inline-flex; align-items: center; gap: 4px; cursor: pointer; user-select: none; }
+  .toggles { margin-left: auto; display: flex; gap: 12px; }
+  ul.list { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; }
+  li.job { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+  li.job.hidden { opacity: .55; }
+  .top { display: flex; gap: 8px; align-items: flex-start; }
+  .title { font-size: 15px; font-weight: 600; color: inherit; text-decoration: none; word-break: keep-all; overflow-wrap: anywhere; flex: 1; }
+  .title:hover { text-decoration: underline; }
+  .star { border: 0; background: none; cursor: pointer; font-size: 18px; line-height: 1; padding: 0 2px; color: var(--line); }
+  .star.on { color: var(--star); }
+  .meta { font-size: 12.5px; color: var(--muted); margin-top: 4px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+  .company { color: var(--text); font-weight: 600; }
+  .badge { font-size: 11.5px; font-weight: 700; padding: 1px 7px; border-radius: 6px; }
+  .s-ok { color: var(--ok); background: var(--ok-bg); }
+  .s-check { color: var(--check); background: var(--check-bg); }
+  .s-no { color: var(--no); background: var(--no-bg); }
+  .auto { color: var(--auto); font-weight: 700; }
+  .dday { font-weight: 700; color: var(--text); }
+  .dday.urgent { color: var(--urgent); }
+  .reason { font-size: 13px; margin-top: 6px; }
+  .evidence { font-size: 12.5px; color: var(--muted); margin-top: 2px; border-left: 2px solid var(--line); padding-left: 8px; overflow-wrap: anywhere; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .tag { font-size: 11.5px; background: var(--chip); color: var(--muted); padding: 1px 7px; border-radius: 6px; }
+  .actions { font-size: 12.5px; margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .actions button { border: 0; background: none; padding: 0; color: var(--muted); cursor: pointer; font: inherit; text-decoration: underline; }
+  .empty { text-align: center; color: var(--muted); padding: 40px 0; }
+  details.help { margin-top: 28px; font-size: 13px; color: var(--muted); }
+  details.help summary { cursor: pointer; }
+  details.help code { background: var(--chip); padding: 1px 5px; border-radius: 4px; word-break: break-all; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>인턴 공고 레이더</h1>
+    <span class="nav"><a href="index.html">← 공지 모아보기</a></span>
+    <div class="sub" id="sub">불러오는 중…</div>
+  </header>
+
+  <div class="controls">
+    <input class="search" id="q" type="search" placeholder="회사·제목·직무 검색" autocomplete="off">
+    <div class="chips" id="status"></div>
+    <div class="chips" id="kind"></div>
+  </div>
+
+  <ul class="list" id="out"></ul>
+
+  <details class="help">
+    <summary>판정 기준 · 캘린더 구독</summary>
+    <p><b>조건 충족</b>: 2028년 2월 졸업이 포함되거나, 재학생·3학년·6학기 이수 조건을 만족한다고 본문에 적힌 공고.<br>
+       <b>확인 필요</b>: 지원 자격이 없거나 '졸업예정자'처럼 시기가 불분명한 공고, 아직 OCR 전인 이미지 공고.<br>
+       <b>불일치</b>: 2027년 졸업자만, 졸업자만, 석·박사만 받는 공고. 자동 판정이라 틀릴 수 있으니 중요한 공고는 원문을 확인하세요.</p>
+    <p>자동차 회사(현대자동차그룹·HL그룹 등)는 직무와 상관없이 모두 보여 주고, 나머지는 반도체·임베디드·회로·펌웨어·자율주행·생산기술·구매·품질 등 직무만 보여 줍니다.
+       규칙은 저장소의 <code>jobs_rules.py</code> 에서 고칩니다.</p>
+    <p>마감일 캘린더: 구글 캘린더 → 다른 캘린더 추가 → URL로 추가 → <code id="ics"></code></p>
+    <p>★ 관심·숨기기 표시는 이 브라우저에만 저장됩니다.</p>
+  </details>
+</div>
+
+<script src="jobs.js"></script>
+<script>
+(function () {
+  var data = window.JOBS;
+  var out = document.getElementById("out");
+  if (!data) {
+    out.innerHTML = '<li class="empty">jobs.js 가 없습니다. <code>python jobs.py</code> 를 먼저 실행하세요.</li>';
+    document.getElementById("sub").textContent = "";
+    return;
+  }
+
+  var store = {
+    get: function (k, d) { try { var v = localStorage.getItem("jobs." + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set: function (k, v) { try { localStorage.setItem("jobs." + k, JSON.stringify(v)); } catch (e) {} }
+  };
+  var state = { status: store.get("status", "live"), kind: store.get("kind", "all"), q: "",
+                starOnly: store.get("starOnly", false), showHidden: false };
+  var stars = store.get("stars", {}), hidden = store.get("hidden", {});
+  var LABEL = { ok: "조건 충족", check: "확인 필요", no: "불일치" };
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  var today = new Date(data.updated.slice(0, 10) + "T00:00:00");
+  function dleft(end) { return end ? Math.round((new Date(end + "T00:00:00") - today) / 864e5) : null; }
+
+  var p = data.profile || {};
+  var bad = data.sources.filter(function (s) { return !s.ok; }).map(function (s) { return s.name; });
+  document.getElementById("sub").innerHTML =
+    "마지막 갱신 " + esc(data.updated) + " (KST) · " + esc(p.grad) + " 졸업 · " + esc(p.grade) + "학년 (" + esc(p.semesters_done) + "학기 이수) 기준" +
+    (data.ocr ? "" : " · 이미지 공고 OCR 꺼짐") +
+    (bad.length ? ' · <span class="bad">' + esc(bad.join(", ")) + " 불러오기 실패, 이전 목록 표시</span>" : "");
+  document.getElementById("ics").textContent = location.href.replace(/[^\/]*$/, "") + "jobs.ics";
+
+  function matches(it, ignore) {
+    if (ignore !== "status") {
+      if (state.status === "live" ? it.status === "no" : state.status !== "all" && it.status !== state.status) return false;
+    }
+    if (ignore !== "kind") {
+      if (state.kind === "auto" && !it.auto) return false;
+      if (state.kind === "job" && !(it.jobs && it.jobs.length)) return false;
+    }
+    if (state.starOnly && !stars[it.id]) return false;
+    if (!state.showHidden && hidden[it.id]) return false;
+    var q = state.q.trim().toLowerCase();
+    if (q && [it.company, it.title, it.reason, (it.fields || []).join(" "), (it.jobs || []).join(" "), it.auto].join(" ").toLowerCase().indexOf(q) < 0) return false;
+    return true;
+  }
+
+  function chipRow(el, key, options, ignore) {
+    var base = data.items.filter(function (it) { return matches(it, ignore); });
+    el.innerHTML = options.map(function (o) {
+      var n = base.filter(o[2]).length;
+      return '<button class="chip' + (state[key] === o[0] ? " on" : "") + '" data-v="' + o[0] + '">' + esc(o[1]) + '<span class="n">' + n + "</span></button>";
+    }).join("") + (key === "kind"
+      ? '<span class="toggles"><label class="toggle"><input type="checkbox" id="staronly"' + (state.starOnly ? " checked" : "") + "> ★만</label>" +
+        '<label class="toggle"><input type="checkbox" id="showhidden"' + (state.showHidden ? " checked" : "") + "> 숨긴 공고</label></span>"
+      : "");
+    Array.prototype.forEach.call(el.querySelectorAll(".chip"), function (b) {
+      b.onclick = function () { state[key] = b.dataset.v; store.set(key, state[key]); render(); };
+    });
+  }
+
+  function card(it) {
+    var n = dleft(it.end);
+    var dd = n === null ? "마감 미기재" : (n === 0 ? "오늘 마감" : "D-" + n);
+    var tags = (it.jobs || []).concat((it.fields || []).filter(function (f) { return (it.jobs || []).indexOf(f) < 0; })).slice(0, 8);
+    var links = [];
+    if (it.apply_url) links.push('<a href="' + esc(it.apply_url) + '" target="_blank" rel="noopener">지원 페이지</a>');
+    (it.also || []).forEach(function (a) { links.push('<a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.name) + "</a>"); });
+    return '<li class="job' + (hidden[it.id] ? " hidden" : "") + '">' +
+      '<div class="top"><a class="title" href="' + esc(it.url) + '" target="_blank" rel="noopener">' + esc(it.title) + "</a>" +
+        '<button class="star' + (stars[it.id] ? " on" : "") + '" data-star="' + esc(it.id) + '" title="관심">★</button></div>' +
+      '<div class="meta"><span class="badge s-' + it.status + '">' + LABEL[it.status] + "</span>" +
+        '<span class="company">' + esc(it.company) + "</span>" +
+        (it.auto ? '<span class="auto">' + esc(it.auto) + "</span>" : "") +
+        '<span class="dday' + (n !== null && n <= 3 ? " urgent" : "") + '">' + dd + (it.end ? " (" + esc(it.end.slice(5).replace("-", "/")) + ")" : "") + "</span>" +
+        (it.intern_type ? "<span>" + esc(it.intern_type) + "</span>" : "") +
+        "<span>" + esc(it.source_name) + "</span></div>" +
+      '<div class="reason">' + esc(it.reason) + (it.basis ? ' <span class="tag">' + esc(it.basis) + " 기준</span>" : "") + "</div>" +
+      (it.evidence ? '<div class="evidence">' + esc(it.evidence) + "</div>" : "") +
+      (tags.length ? '<div class="tags">' + tags.map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("") + "</div>" : "") +
+      '<div class="actions">' + links.join("") + '<button data-hide="' + esc(it.id) + '">' + (hidden[it.id] ? "다시 보기" : "숨기기") + "</button></div>" +
+      "</li>";
+  }
+
+  function render() {
+    chipRow(document.getElementById("status"), "status", [
+      ["live", "충족 + 확인 필요", function (it) { return it.status !== "no"; }],
+      ["ok", LABEL.ok, function (it) { return it.status === "ok"; }],
+      ["check", LABEL.check, function (it) { return it.status === "check"; }],
+      ["no", LABEL.no, function (it) { return it.status === "no"; }],
+      ["all", "전체", function () { return true; }]
+    ], "status");
+    chipRow(document.getElementById("kind"), "kind", [
+      ["all", "전체", function () { return true; }],
+      ["auto", "자동차 회사", function (it) { return !!it.auto; }],
+      ["job", "직무 매칭", function (it) { return it.jobs && it.jobs.length; }]
+    ], "kind");
+    document.getElementById("staronly").onchange = function (e) { state.starOnly = e.target.checked; store.set("starOnly", state.starOnly); render(); };
+    document.getElementById("showhidden").onchange = function (e) { state.showHidden = e.target.checked; render(); };
+
+    var items = data.items.filter(function (it) { return matches(it); });
+    out.innerHTML = items.length ? items.map(card).join("") : '<li class="empty">조건에 맞는 공고가 없습니다.</li>';
+  }
+
+  out.onclick = function (e) {
+    var s = e.target.getAttribute("data-star"), h = e.target.getAttribute("data-hide");
+    if (s) { if (stars[s]) delete stars[s]; else stars[s] = 1; store.set("stars", stars); render(); }
+    if (h) { if (hidden[h]) delete hidden[h]; else hidden[h] = 1; store.set("hidden", hidden); render(); }
+  };
+  var timer;
+  document.getElementById("q").oninput = function (e) {
+    clearTimeout(timer);
+    timer = setTimeout(function () { state.q = e.target.value; render(); }, 120);
+  };
+  render();
+})();
+</script>
+</body>
+</html>
