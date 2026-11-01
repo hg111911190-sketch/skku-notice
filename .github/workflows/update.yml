@@ -9,6 +9,11 @@ on:
 permissions:
   contents: write
 
+# 인턴 공고 워크플로와 같은 그룹: 둘이 동시에 push 하다 충돌하지 않게 차례로 돈다
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest

@@ -1,0 +1,42 @@
+name: 인턴 공고 확인
+
+on:
+  schedule:
+    # 3시간마다 (정각은 Actions 가 붐벼서 17분에)
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# 공지 갱신 워크플로와 같은 그룹: 둘이 동시에 push 하다 충돌하지 않게 차례로 돈다
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+
+jobs:
+  jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: OCR 도구 설치 (이미지로 된 공고용)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor
+          pip install -q pillow
+      - run: python test_jobs_rules.py
+      - run: python jobs.py
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_APP_PASSWORD: ${{ secrets.MAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+      - name: 변경 사항 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/jobs.json docs/jobs.js docs/jobs.ics cache/jobs_cache.json
+          git diff --cached --quiet || git commit -m "인턴 공고 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+          git push
