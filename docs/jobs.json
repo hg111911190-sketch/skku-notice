@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-01 13:45",
+ "updated": "2026-11-01 13:51",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
   "semesters_done": 5
  },
- "ocr": false,
+ "ocr": true,
  "sources": [
   {
    "id": "linkareer",
@@ -254,9 +254,9 @@
    ],
    "intern_type": "채용연계형 인턴",
    "status": "check",
-   "reason": "공고가 이미지라 자격 미확인 (OCR 대기)",
+   "reason": "지원 자격 정보 없음",
    "evidence": "",
-   "basis": "제목",
+   "basis": "OCR",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
    "also": []
@@ -286,9 +286,9 @@
    ],
    "intern_type": "",
    "status": "check",
-   "reason": "공고가 이미지라 자격 미확인 (OCR 대기)",
+   "reason": "지원 자격 정보 없음",
    "evidence": "",
-   "basis": "제목",
+   "basis": "OCR",
    "source_name": "자소설닷컴",
    "first_seen": "2026-11-01 13:38",
    "also": []
@@ -372,9 +372,9 @@
    ],
    "intern_type": "",
    "status": "check",
-   "reason": "공고가 이미지라 자격 미확인 (OCR 대기)",
+   "reason": "지원 자격 정보 없음",
    "evidence": "",
-   "basis": "제목",
+   "basis": "OCR",
    "source_name": "자소설닷컴",
    "first_seen": "2026-11-01 13:38",
    "also": []
@@ -422,9 +422,9 @@
    ],
    "intern_type": "체험형 인턴",
    "status": "check",
-   "reason": "공고가 이미지라 자격 미확인 (OCR 대기)",
+   "reason": "지원 자격 정보 없음",
    "evidence": "",
-   "basis": "제목",
+   "basis": "OCR",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
    "also": []
@@ -451,9 +451,9 @@
    ],
    "intern_type": "채용연계형 인턴",
    "status": "check",
-   "reason": "공고가 이미지라 자격 미확인 (OCR 대기)",
+   "reason": "지원 자격 정보 없음",
    "evidence": "",
-   "basis": "제목",
+   "basis": "OCR",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
    "also": []
@@ -607,9 +607,9 @@
    ],
    "intern_type": "체험형 인턴",
    "status": "check",
-   "reason": "공고가 이미지라 자격 미확인 (OCR 대기)",
+   "reason": "지원 자격 정보 없음",
    "evidence": "",
-   "basis": "제목",
+   "basis": "OCR",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
    "also": []
