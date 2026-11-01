@@ -201,6 +201,8 @@ def ocr_images(exe, urls):
         Image = None
     texts = []
     for url in urls:
+        if url.startswith("//"):  # '//file2.jobkorea.co.kr/...' 처럼 프로토콜 없는 주소
+            url = "https:" + url
         raw = request(url, binary=True)
         with tempfile.TemporaryDirectory() as td:
             paths = []
