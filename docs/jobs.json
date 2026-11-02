@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02 20:19",
+ "updated": "2026-11-03 06:45",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -132,78 +132,6 @@
    "evidence": "참여를 부탁드립니다. ○ 참여자격: 성균관대학교 2학년 이상 재학생 중 2026학년도 겨울학기 학점 인정이 가",
    "basis": "본문",
    "source_name": "학교 공지",
-   "first_seen": "2026-11-01 13:38",
-   "also": []
-  },
-  {
-   "id": "lk-340134",
-   "source": "linkareer",
-   "company": "마카롱팩토리",
-   "title": "[마카롱팩토리] SCM·물류 운영 지원 (채용전환형 인턴)",
-   "url": "https://linkareer.com/activity/340134",
-   "apply_url": "https://mycle.co.kr/index.html",
-   "start": "2026-08-04",
-   "end": "2026-11-02",
-   "fields": [
-    "물류/SCM관리"
-   ],
-   "auto": "",
-   "jobs": [
-    "scm"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
-   "evidence": "기간 6개월 평가 후 정규직 전환이 가능한 분 (졸업 예정자 또는 기졸업자) • Excel 및 Googl",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
-   "also": []
-  },
-  {
-   "id": "lk-341633",
-   "source": "linkareer",
-   "company": "주식회사 아워코퍼레이션",
-   "title": "[아워코퍼레이션] 2026 인턴/신입/경력 대규모 공개 채용",
-   "url": "https://linkareer.com/activity/341633",
-   "apply_url": "https://ourcorp.kr/",
-   "start": "2026-08-04",
-   "end": "2026-11-02",
-   "fields": [
-    "사업기획/신규사업",
-    "서비스기획/운영",
-    "마케팅기획/전략",
-    "브랜드마케팅",
-    "디지털/퍼포먼스마케팅",
-    "SNS/콘텐츠마케팅",
-    "광고기획/AE",
-    "PR/홍보",
-    "시장조사/리서치",
-    "UI/UX디자인",
-    "그래픽/시각디자인",
-    "제품/산업디자인",
-    "B2B영업",
-    "해외영업",
-    "영업관리/기획",
-    "판매/매장관리",
-    "고객상담/CS",
-    "품질관리(QC/QA)",
-    "바이오/제약연구개발",
-    "식품/화장품",
-    "PD/연출/방송제작",
-    "영상촬영/편집",
-    "광고제작/카피라이터"
-   ],
-   "auto": "",
-   "jobs": [
-    "품질관리(QC/QA)"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "OCR",
-   "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
    "also": []
   },
