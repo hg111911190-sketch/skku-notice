@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02 09:48",
+ "updated": "2026-11-02 20:19",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -611,21 +611,20 @@
    "also": []
   },
   {
-   "id": "lk-358384",
+   "id": "lk-360985",
    "source": "linkareer",
-   "company": "(주)어댑트",
-   "title": "[체험형인턴] 구매 사무보조",
-   "url": "https://linkareer.com/activity/358384",
-   "apply_url": "https://www.adaptkorea.com/",
-   "start": "2026-10-20",
-   "end": "2027-01-18",
+   "company": "주식회사 더파운더즈",
+   "title": "[ANUA] 글로벌 SCM&물류 운영 인턴 (발주·수출)",
+   "url": "https://linkareer.com/activity/360985",
+   "apply_url": "https://thefounders.careers/",
+   "start": "2026-10-30",
+   "end": "2027-01-28",
    "fields": [
-    "구매/자재관리"
+    "물류/SCM관리"
    ],
    "auto": "",
    "jobs": [
-    "구매/자재관리",
-    "구매"
+    "scm"
    ],
    "intern_type": "체험형 인턴",
    "status": "check",
@@ -633,7 +632,7 @@
    "evidence": "",
    "basis": "본문",
    "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
+   "first_seen": "2026-11-02 20:19",
    "also": []
   },
   {
