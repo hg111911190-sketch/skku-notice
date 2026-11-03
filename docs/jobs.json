@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04 02:07",
+ "updated": "2026-11-04 08:27",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -15,7 +15,7 @@
   {
    "id": "jasoseol",
    "name": "자소설닷컴",
-   "ok": true
+   "ok": false
   },
   {
    "id": "school",
@@ -717,22 +717,6 @@
     {
      "name": "링커리어",
      "url": "https://linkareer.com/activity/350281"
-    },
-    {
-     "name": "자소설닷컴",
-     "url": "https://jasoseol.com/recruit/106741"
-    },
-    {
-     "name": "자소설닷컴",
-     "url": "https://jasoseol.com/recruit/106743"
-    },
-    {
-     "name": "자소설닷컴",
-     "url": "https://jasoseol.com/recruit/106746"
-    },
-    {
-     "name": "자소설닷컴",
-     "url": "https://jasoseol.com/recruit/106748"
     }
    ]
   },
