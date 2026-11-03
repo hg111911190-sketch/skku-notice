@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03 10:23",
+ "updated": "2026-11-03 17:44",
  "sources": [
   {
    "id": "skku",
@@ -29,46 +29,167 @@
  "items": [
   {
    "source": "skku",
-   "id": "skku-141509",
-   "title": "[학생성공센터] 자유전공계열 학생 대상 비교과·안내 정보 수요조사 안내(~11.13.)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141509",
-   "category": "행사/세미나",
-   "dept": "학생성공센터행정실",
-   "date": "2026-11-03",
-   "views": 150,
-   "pinned": true
-  },
-  {
-   "source": "skku",
-   "id": "skku-141131",
-   "title": "양자생명물리과학원 행정직원 모집",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141131",
+   "id": "skku-141538",
+   "title": "2026년 하반기 교직원(정규직) 신규채용 1차 면접전형 결과 발표 및 2차 면접전형 안내",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141538",
    "category": "채용/모집",
-   "dept": "오주이",
+   "dept": "총괄지원팀",
    "date": "2026-11-03",
-   "views": 4031,
+   "views": 489,
    "pinned": true
   },
   {
    "source": "skku",
-   "id": "skku-141512",
-   "title": "[학생인재개발팀/대학일자리플러스센터] 삼성그룹 임원 초청 멘토링",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141512",
-   "category": "취업",
-   "dept": "김문호",
+   "id": "skku-141543",
+   "title": "[앵커사업단] 「성균관대학교 창업팀 투자 유치 역량 강화 집중 프로그램」 참여팀 모집 (~11/10)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141543",
+   "category": "행사/세미나",
+   "dept": "이예원",
    "date": "2026-11-03",
-   "views": 30,
+   "views": 135,
    "pinned": false
   },
   {
    "source": "skku",
-   "id": "skku-140500",
-   "title": "✨(성균인성교육센터) 2026-2 성균인의 자기이해 <인성함양 실천 특별프로그램 [성균]> 참가자 모집",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140500",
+   "id": "skku-141542",
+   "title": "[HUSS] 2026 HUSS POP 「AI로 그리는 인구의 미래: 사회문제 해결 숏폼 콘텐츠 캠프」 참가자 모집 (~11/27)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141542",
    "category": "행사/세미나",
-   "dept": "이재규",
+   "dept": "인문사회융합인재양성사업단",
    "date": "2026-11-03",
-   "views": 64535,
+   "views": 116,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-137181",
+   "title": "[뇌과학이미징연구단] (fMRI) 이야기/사건 실험 참여자 모집",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=137181",
+   "category": "채용/모집",
+   "dept": "이지윤",
+   "date": "2026-11-03",
+   "views": 36753,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-136325",
+   "title": "[대학원혁신지원사업] 2026학년도 SKKU 수월성 기반 학문후속세대 연구지원 프로그램 시행안내",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=136325",
+   "category": "일반",
+   "dept": "대학원",
+   "date": "2026-11-03",
+   "views": 20210,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141536",
+   "title": "[입학처] 2027학년도 수시모집 논술 시험 교통 통제 단기근로(아르바이트) 모집",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141536",
+   "category": "채용/모집",
+   "dept": "정준구",
+   "date": "2026-11-03",
+   "views": 1067,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-140767",
+   "title": "사회과학대학 제41회 수선포럼 개최 안내: 2026.11.18.(수) 11:30~13:00",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140767",
+   "category": "행사/세미나",
+   "dept": "사회과학연구원",
+   "date": "2026-11-03",
+   "views": 7224,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-140686",
+   "title": "2027년 엔지니어링인재육성재단 제2기 장학생 모집 안내",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140686",
+   "category": "장학",
+   "dept": "성균관대학교 장학담당",
+   "date": "2026-11-03",
+   "views": 11305,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141136",
+   "title": "2027년도 제16회 변호사시험 시험관리원(재학생) 모집(★조기마감/추천인원은 11.9.(월) 메일 안내 예정★)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141136",
+   "category": "채용/모집",
+   "dept": "법학전문대학원행정실",
+   "date": "2026-11-03",
+   "views": 52140,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141534",
+   "title": "'Meredith Martin' 교수님 초청 강연 안내 - The Trap of Bias: Human, Data, Model, Human. (11/20(금) 10:30)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141534",
+   "category": "행사/세미나",
+   "dept": "영어영문학과",
+   "date": "2026-11-03",
+   "views": 386,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-140808",
+   "title": "[학생인재개발팀/대학일자리플러스센터] 2026 하반기 애널리스트와 함께하는 산업·면접 특강(신청일자 연장)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140808",
+   "category": "취업",
+   "dept": "박은선",
+   "date": "2026-11-03",
+   "views": 5028,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-135615",
+   "title": "[공지] 장학생 추천서 총장 직인 날인 신청 안내 (GLS 신청)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=135615",
+   "category": "장학",
+   "dept": "성균관대학교 장학담당",
+   "date": "2026-11-03",
+   "views": 89526,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141528",
+   "title": "2027년도 관정재단 학부(대학생) 장학생 선발안내( ~ 11.11(수) 09:00까지)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141528",
+   "category": "장학",
+   "dept": "성균관대학교 장학담당",
+   "date": "2026-11-03",
+   "views": 1177,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141152",
+   "title": "통증 예측과 뇌 반응 연구 참여자 모집",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141152",
+   "category": "채용/모집",
+   "dept": "김동호",
+   "date": "2026-11-03",
+   "views": 3260,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141530",
+   "title": "[공학교육혁신센터]✨2026 공학페스티벌-성균인event✨우리 학교에 E²가 숨어있다?! 포스터 인증 이벤트(~11/12(목)까)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141530",
+   "category": "행사/세미나",
+   "dept": "김유리",
+   "date": "2026-11-03",
+   "views": 444,
    "pinned": false
   },
   {
@@ -79,7 +200,73 @@
    "category": "행사/세미나",
    "dept": "이재규",
    "date": "2026-11-03",
-   "views": 15387,
+   "views": 15754,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-140500",
+   "title": "✨(성균인성교육센터) 2026-2 성균인의 자기이해 <인성함양 실천 특별프로그램 [성균]> 참가자 모집",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140500",
+   "category": "행사/세미나",
+   "dept": "이재규",
+   "date": "2026-11-03",
+   "views": 64851,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141509",
+   "title": "[학생성공센터] 자유전공계열 학생 대상 비교과·안내 정보 수요조사 안내(~11.13.)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141509",
+   "category": "행사/세미나",
+   "dept": "학생성공센터행정실",
+   "date": "2026-11-03",
+   "views": 1496,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141498",
+   "title": "[창업지원단/실험실창업혁신단] 2026 SKKU UNITE 프리 텍스코어(11/28~29) 참가자 모집(이비스 앰배서더 수원, 총상금 350만원)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141498",
+   "category": "행사/세미나",
+   "dept": "방민정",
+   "date": "2026-11-03",
+   "views": 5659,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141494",
+   "title": "[학생사회공헌단 다소미 X 학생성공센터] 2026 배워서 남 주는 프로젝트 성과공유회 개최 안내",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141494",
+   "category": "행사/세미나",
+   "dept": "학생성공센터행정실",
+   "date": "2026-11-03",
+   "views": 5759,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141131",
+   "title": "양자생명물리과학원 행정직원 모집",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141131",
+   "category": "채용/모집",
+   "dept": "오주이",
+   "date": "2026-11-03",
+   "views": 5453,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141041",
+   "title": "사범대학 에듀테크연구소 행정 직원 채용 공고",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141041",
+   "category": "채용/모집",
+   "dept": "이승원",
+   "date": "2026-11-03",
+   "views": 66510,
    "pinned": false
   },
   {
@@ -90,7 +277,7 @@
    "category": "채용/모집",
    "dept": "이지윤",
    "date": "2026-11-03",
-   "views": 99,
+   "views": 844,
    "pinned": false
   },
   {
@@ -101,7 +288,73 @@
    "category": "학사",
    "dept": "성균융합원",
    "date": "2026-11-03",
-   "views": 15291,
+   "views": 15584,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-140798",
+   "title": "[세미나] 양자정보연구지원센터 2026 제5회 양자정보세미나 개최 안내",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140798",
+   "category": "행사/세미나",
+   "dept": "김시은",
+   "date": "2026-11-03",
+   "views": 5325,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141522",
+   "title": "[학생성공센터 대학원] 질적 연구(혼합연구&포토보이스) 실무 워크숍 안내",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141522",
+   "category": "행사/세미나",
+   "dept": "학생성공센터행정실",
+   "date": "2026-11-03",
+   "views": 425,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141523",
+   "title": "[학생성공센터 대학원] 질적 연구(연구설계&질적논문의 구조) 실무 워크숍 안내",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141523",
+   "category": "행사/세미나",
+   "dept": "학생성공센터행정실",
+   "date": "2026-11-03",
+   "views": 387,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-140831",
+   "title": "[HUSS] 현직자와 함께하는 「2026-2 HUSS Career Connect」 참가자 모집",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140831",
+   "category": "행사/세미나",
+   "dept": "인문사회융합인재양성사업단",
+   "date": "2026-11-03",
+   "views": 9909,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-140482",
+   "title": "[인공지능혁신융합대학사업] 2026학년도 인공지능혁신융합대학사업 겨울 계절학기 학점교류 수강 안내 (상시 업데이트)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140482",
+   "category": "학사",
+   "dept": "인공지능혁신공유대학사업단",
+   "date": "2026-11-03",
+   "views": 28773,
+   "pinned": false
+  },
+  {
+   "source": "skku",
+   "id": "skku-141512",
+   "title": "[학생인재개발팀/대학일자리플러스센터] 삼성그룹 임원 초청 멘토링",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141512",
+   "category": "취업",
+   "dept": "김문호",
+   "date": "2026-11-03",
+   "views": 732,
    "pinned": false
   },
   {
@@ -112,293 +365,18 @@
    "category": "채용/모집",
    "dept": "인공지능대학원",
    "date": "2026-11-03",
-   "views": 2214,
+   "views": 2958,
    "pinned": false
   },
   {
-   "source": "skku",
-   "id": "skku-140948",
-   "title": "[앵커사업단] 글로벌 창업경진대회 Soulmate Pioneers 참가팀 모집(~11/15, 총 상금 900만원)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140948",
-   "category": "행사/세미나",
-   "dept": "심보경",
+   "source": "eee",
+   "id": "eee-227977",
+   "title": "[외부] (재)전기공사공제조합장학회 2027년도 제22기 장학생 선발 안내",
+   "url": "https://eee.skku.edu/eee/notice.do?mode=view&articleNo=227977",
+   "category": "장학",
+   "dept": "전자전기공학부",
    "date": "2026-11-03",
-   "views": 14497,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141498",
-   "title": "[창업지원단/실험실창업혁신단] 2026 SKKU UNITE 프리 텍스코어(11/28~29) 참가자 모집(이비스 앰배서더 수원, 총상금 350만원)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141498",
-   "category": "행사/세미나",
-   "dept": "방민정",
-   "date": "2026-11-02",
-   "views": 3856,
-   "pinned": true
-  },
-  {
-   "source": "skku",
-   "id": "skku-141494",
-   "title": "[학생사회공헌단 다소미 X 학생성공센터] 2026 배워서 남 주는 프로젝트 성과공유회 개최 안내",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141494",
-   "category": "행사/세미나",
-   "dept": "학생성공센터행정실",
-   "date": "2026-11-02",
-   "views": 3930,
-   "pinned": true
-  },
-  {
-   "source": "skku",
-   "id": "skku-141503",
-   "title": "(2027년 1학기) CAMPUS Asia 일본파견 교환장학생 모집 연장",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141503",
-   "category": "채용/모집",
-   "dept": "유일현",
-   "date": "2026-11-02",
-   "views": 961,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141152",
-   "title": "통증 예측과 뇌 반응 연구 참여자 모집",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141152",
-   "category": "채용/모집",
-   "dept": "김동호",
-   "date": "2026-11-02",
-   "views": 2822,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-140601",
-   "title": "2026학년도 심산혁신장학금 장학생 선발안내( ~ 2026년 11월 6일(금) 오후 5시까지)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140601",
-   "category": "장학",
-   "dept": "성현호",
-   "date": "2026-11-02",
-   "views": 26259,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-140495",
-   "title": "2026학년도 겨울 계절수업 본교생 → 타 대학 학점교류 수강 안내(진행 중)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140495",
-   "category": "학사",
-   "dept": "교무팀",
-   "date": "2026-11-02",
-   "views": 30305,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141425",
-   "title": "2026 기숙사 생활 콘텐츠 공모전 실시 안내",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141425",
-   "category": "일반",
-   "dept": "명륜학사",
-   "date": "2026-11-02",
-   "views": 3232,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-140807",
-   "title": "[학생인재개발팀/대학일자리플러스센터] 2026 하반기 실전 모의면접[인사캠 추가 모집]",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140807",
-   "category": "취업",
-   "dept": "박은선",
-   "date": "2026-11-02",
-   "views": 4726,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141486",
-   "title": "[인권센터] 2026 성균관대학교 제5회 인권세미나 개최 안내",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141486",
-   "category": "행사/세미나",
-   "dept": "차남희",
-   "date": "2026-11-02",
-   "views": 1002,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-140964",
-   "title": "✅[DS교육센터] 2026-2학기 DS교과지원 TA 모집✅",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140964",
-   "category": "채용/모집",
-   "dept": "안지운",
-   "date": "2026-11-02",
-   "views": 8475,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-140368",
-   "title": "(연장) 2027년도 해동과학문화재단 해동장학생 선발 안내(공학계열 학부생, ~ 11.03(화) 09:00까지)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140368",
-   "category": "장학",
-   "dept": "성균관대학교 장학담당",
-   "date": "2026-11-02",
-   "views": 29974,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141478",
-   "title": "2026년 재난안전 AI 데이터 활용 해커톤 공고 안내",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141478",
-   "category": "채용/모집",
-   "dept": "학생지원팀",
-   "date": "2026-11-02",
-   "views": 1628,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-140531",
-   "title": "[아이폰 17 및 경품 다수] 2026년 학생인재개발팀/대학일자리플러스센터 만족도 조사(연장: ~11/6)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140531",
-   "category": "취업",
-   "dept": "박은선",
-   "date": "2026-11-02",
-   "views": 19998,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-140831",
-   "title": "[HUSS] 현직자와 함께하는 「2026-2 HUSS Career Connect」 참가자 모집",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140831",
-   "category": "행사/세미나",
-   "dept": "인문사회융합인재양성사업단",
-   "date": "2026-11-02",
-   "views": 9638,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141051",
-   "title": "[학생성공센터] 대학원 학생성공스토리 공모전(11/11) 진행자 및 알바 모집",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141051",
-   "category": "채용/모집",
-   "dept": "학생성공센터행정실",
-   "date": "2026-11-02",
-   "views": 4390,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141289",
-   "title": "성균관대학교 건설환경공학부 대학원 행정조교 채용(~11.09(월) 17:00까지)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141289",
-   "category": "채용/모집",
-   "dept": "정보통신/소프트웨어/공과대학행정실",
-   "date": "2026-11-02",
-   "views": 1348,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141243",
-   "title": "[카운슬링센터] ✨11/20(금) 오후 1시「불안관리 워크숍 : 아로마테라피 & 싱잉볼」프로그램 참여자를 모집합니다! (인사캠)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141243",
-   "category": "채용/모집",
-   "dept": "카운슬링센터",
-   "date": "2026-11-02",
-   "views": 1254,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-140767",
-   "title": "사회과학대학 제41회 수선포럼 개최 안내: 2026.11.18.(수) 11:30~13:00",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140767",
-   "category": "행사/세미나",
-   "dept": "사회과학연구원",
-   "date": "2026-10-31",
-   "views": 7086,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141136",
-   "title": "2027년도 제16회 변호사시험 시험관리원(재학생) 모집(~11.8.(일)/조기마감 가능)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141136",
-   "category": "채용/모집",
-   "dept": "법학전문대학원행정실",
-   "date": "2026-10-30",
-   "views": 49613,
-   "pinned": true
-  },
-  {
-   "source": "skku",
-   "id": "skku-141142",
-   "title": "[성균인문아카데미] 제14기 졸업례 행사 스케치 영상 촬영 아르바이트 학생 모집(11/3화, 1일)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141142",
-   "category": "채용/모집",
-   "dept": "성균인문아카데미",
-   "date": "2026-10-30",
-   "views": 3553,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141138",
-   "title": "시놀로지(Synology) NAS 보안 취약점 업데이트 권고",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141138",
-   "category": "일반",
-   "dept": "보안담당자",
-   "date": "2026-10-30",
-   "views": 2544,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141137",
-   "title": "PHP의 중대한 취약점 공개에 따른 학내 홈페이지 긴급 점검 및 조치 요청",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141137",
-   "category": "일반",
-   "dept": "보안담당자",
-   "date": "2026-10-30",
-   "views": 2733,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-140730",
-   "title": "제3회 바이오헬스 글로벌 석학 멘토십 세미나 개최 안내(11/9)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=140730",
-   "category": "행사/세미나",
-   "dept": "의료인공지능융합인재양성사업단",
-   "date": "2026-10-30",
-   "views": 8617,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141133",
-   "title": "2026학년도 겨울학기 현장실습 학생 지원 신청 안내(~11/29)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141133",
-   "category": "채용/모집",
-   "dept": "이지혜",
-   "date": "2026-10-30",
-   "views": 5258,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141105",
-   "title": "성균관대학교 양자공학과 객원교수 채용 공고",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141105",
-   "category": "채용/모집",
-   "dept": "서호성",
-   "date": "2026-10-30",
-   "views": 3014,
+   "views": 56,
    "pinned": false
   },
   {
@@ -409,7 +387,7 @@
    "category": "",
    "dept": "전자전기공학부",
    "date": "2026-10-30",
-   "views": 1123,
+   "views": 1235,
    "pinned": true
   },
   {
@@ -420,7 +398,7 @@
    "category": "장학",
    "dept": "전자전기공학부",
    "date": "2026-10-30",
-   "views": 1003,
+   "views": 1107,
    "pinned": true
   },
   {
@@ -431,29 +409,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-10-30",
-   "views": 155,
-   "pinned": false
-  },
-  {
-   "source": "skku",
-   "id": "skku-141041",
-   "title": "사범대학 에듀테크연구소 행정 직원 채용 공고",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141041",
-   "category": "채용/모집",
-   "dept": "이승원",
-   "date": "2026-10-29",
-   "views": 64403,
-   "pinned": true
-  },
-  {
-   "source": "skku",
-   "id": "skku-141109",
-   "title": "[스포츠재활 연구실] 만성 발목 불안정성 대상 발목 재활운동 연구 참여자 모집",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141109",
-   "category": "채용/모집",
-   "dept": "남승희",
-   "date": "2026-10-29",
-   "views": 2209,
+   "views": 175,
    "pinned": false
   },
   {
@@ -464,7 +420,7 @@
    "category": "학사",
    "dept": "전자전기공학부",
    "date": "2026-10-29",
-   "views": 523,
+   "views": 567,
    "pinned": false
   },
   {
@@ -475,7 +431,7 @@
    "category": "",
    "dept": "전자전기공학부",
    "date": "2026-10-23",
-   "views": 2406,
+   "views": 2494,
    "pinned": true
   },
   {
@@ -486,7 +442,7 @@
    "category": "취업",
    "dept": "전자전기공학부",
    "date": "2026-10-23",
-   "views": 1215,
+   "views": 1234,
    "pinned": false
   },
   {
@@ -497,7 +453,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-10-22",
-   "views": 227,
+   "views": 230,
    "pinned": false
   },
   {
@@ -508,7 +464,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-10-22",
-   "views": 122,
+   "views": 124,
    "pinned": false
   },
   {
@@ -519,7 +475,7 @@
    "category": "일반",
    "dept": "학생지원팀",
    "date": "2026-10-20",
-   "views": 221716,
+   "views": 224017,
    "pinned": true
   },
   {
@@ -530,7 +486,7 @@
    "category": "",
    "dept": "정보통신대학",
    "date": "2026-10-19",
-   "views": 1100,
+   "views": 1112,
    "pinned": false
   },
   {
@@ -541,7 +497,7 @@
    "category": "",
    "dept": "전자전기공학부",
    "date": "2026-10-19",
-   "views": 1741,
+   "views": 1758,
    "pinned": false
   },
   {
@@ -552,7 +508,7 @@
    "category": "",
    "dept": "전자전기공학부",
    "date": "2026-10-16",
-   "views": 3425,
+   "views": 3484,
    "pinned": true
   },
   {
@@ -563,7 +519,7 @@
    "category": "",
    "dept": "전자전기공학부",
    "date": "2026-10-16",
-   "views": 2983,
+   "views": 3049,
    "pinned": true
   },
   {
@@ -574,7 +530,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-10-13",
-   "views": 719,
+   "views": 737,
    "pinned": false
   },
   {
@@ -585,7 +541,7 @@
    "category": "학사",
    "dept": "전자전기공학부",
    "date": "2026-10-12",
-   "views": 1225,
+   "views": 1229,
    "pinned": false
   },
   {
@@ -596,7 +552,7 @@
    "category": "학사",
    "dept": "전자전기공학부",
    "date": "2026-10-12",
-   "views": 1297,
+   "views": 1305,
    "pinned": false
   },
   {
@@ -607,7 +563,7 @@
    "category": "",
    "dept": "IT융합연구원",
    "date": "2026-10-07",
-   "views": 248,
+   "views": 250,
    "pinned": false
   },
   {
@@ -618,7 +574,7 @@
    "category": "",
    "dept": "정보통신대학",
    "date": "2026-09-23",
-   "views": 2454,
+   "views": 2461,
    "pinned": false
   },
   {
@@ -629,7 +585,7 @@
    "category": "",
    "dept": "전자전기공학부",
    "date": "2026-09-23",
-   "views": 1966,
+   "views": 1998,
    "pinned": false
   },
   {
@@ -651,7 +607,7 @@
    "category": "학사",
    "dept": "전자전기공학부",
    "date": "2026-09-21",
-   "views": 1318,
+   "views": 1353,
    "pinned": false
   },
   {
@@ -662,7 +618,7 @@
    "category": "학사",
    "dept": "전자전기공학부",
    "date": "2026-09-21",
-   "views": 1376,
+   "views": 1390,
    "pinned": false
   },
   {
@@ -673,7 +629,7 @@
    "category": "학사",
    "dept": "전자전기공학부",
    "date": "2026-09-21",
-   "views": 1258,
+   "views": 1262,
    "pinned": false
   },
   {
@@ -684,7 +640,7 @@
    "category": "장학",
    "dept": "전자전기공학부",
    "date": "2026-09-21",
-   "views": 2908,
+   "views": 2919,
    "pinned": false
   },
   {
@@ -695,7 +651,7 @@
    "category": "",
    "dept": "정보통신대학",
    "date": "2026-09-16",
-   "views": 2276,
+   "views": 2283,
    "pinned": false
   },
   {
@@ -706,7 +662,7 @@
    "category": "학사",
    "dept": "전자전기공학부",
    "date": "2026-09-16",
-   "views": 6374,
+   "views": 6459,
    "pinned": true
   },
   {
@@ -717,7 +673,7 @@
    "category": "학사",
    "dept": "전자전기공학부",
    "date": "2026-09-16",
-   "views": 5539,
+   "views": 5594,
    "pinned": true
   },
   {
@@ -728,7 +684,7 @@
    "category": "",
    "dept": "전자전기공학부",
    "date": "2026-09-16",
-   "views": 5504,
+   "views": 5587,
    "pinned": true
   },
   {
@@ -739,7 +695,7 @@
    "category": "",
    "dept": "전자전기공학부",
    "date": "2026-09-16",
-   "views": 1186,
+   "views": 1189,
    "pinned": false
   },
   {
@@ -750,7 +706,7 @@
    "category": "장학",
    "dept": "전자전기공학부",
    "date": "2026-09-16",
-   "views": 2105,
+   "views": 2137,
    "pinned": false
   },
   {
@@ -761,7 +717,7 @@
    "category": "",
    "dept": "ice",
    "date": "2026-09-15",
-   "views": 2908,
+   "views": 2920,
    "pinned": false
   },
   {
@@ -772,7 +728,7 @@
    "category": "취업",
    "dept": "전자전기공학부",
    "date": "2026-09-15",
-   "views": 1581,
+   "views": 1621,
    "pinned": false
   },
   {
@@ -783,7 +739,7 @@
    "category": "채용/모집",
    "dept": "정보통신대학",
    "date": "2026-09-14",
-   "views": 3071,
+   "views": 3079,
    "pinned": false
   },
   {
@@ -805,7 +761,7 @@
    "category": "학사",
    "dept": "전자전기공학부",
    "date": "2026-09-10",
-   "views": 5492,
+   "views": 5564,
    "pinned": true
   },
   {
@@ -816,7 +772,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-09-10",
-   "views": 990,
+   "views": 993,
    "pinned": false
   },
   {
@@ -827,7 +783,7 @@
    "category": "장학",
    "dept": "전자전기공학부",
    "date": "2026-09-09",
-   "views": 5477,
+   "views": 5540,
    "pinned": true
   },
   {
@@ -838,7 +794,7 @@
    "category": "",
    "dept": "전자전기공학부",
    "date": "2026-09-08",
-   "views": 1699,
+   "views": 1723,
    "pinned": false
   },
   {
@@ -849,7 +805,7 @@
    "category": "취업",
    "dept": "전자전기공학부",
    "date": "2026-09-08",
-   "views": 2564,
+   "views": 2572,
    "pinned": false
   },
   {
@@ -860,7 +816,7 @@
    "category": "채용/모집",
    "dept": "전자전기공학부",
    "date": "2026-09-08",
-   "views": 2341,
+   "views": 2349,
    "pinned": false
   },
   {
@@ -904,7 +860,7 @@
    "category": "채용/모집",
    "dept": "정보통신대학",
    "date": "2026-09-07",
-   "views": 4020,
+   "views": 4031,
    "pinned": false
   },
   {
@@ -915,7 +871,7 @@
    "category": "",
    "dept": "IT융합연구원",
    "date": "2026-09-04",
-   "views": 1012,
+   "views": 1014,
    "pinned": false
   },
   {
@@ -937,7 +893,7 @@
    "category": "취업",
    "dept": "전자전기공학부",
    "date": "2026-09-02",
-   "views": 1858,
+   "views": 1874,
    "pinned": false
   },
   {
@@ -948,7 +904,7 @@
    "category": "취업",
    "dept": "전자전기공학부",
    "date": "2026-09-02",
-   "views": 1942,
+   "views": 1962,
    "pinned": false
   },
   {
@@ -959,7 +915,7 @@
    "category": "취업",
    "dept": "전자전기공학부",
    "date": "2026-09-02",
-   "views": 1624,
+   "views": 1632,
    "pinned": false
   },
   {
@@ -970,7 +926,7 @@
    "category": "취업",
    "dept": "전자전기공학부",
    "date": "2026-08-31",
-   "views": 2069,
+   "views": 2081,
    "pinned": false
   },
   {
@@ -981,7 +937,7 @@
    "category": "행사/세미나",
    "dept": "전자전기공학부",
    "date": "2026-08-28",
-   "views": 1606,
+   "views": 1610,
    "pinned": false
   },
   {
@@ -992,7 +948,7 @@
    "category": "학사",
    "dept": "ice",
    "date": "2026-08-27",
-   "views": 2750,
+   "views": 2757,
    "pinned": false
   },
   {
@@ -1003,7 +959,7 @@
    "category": "취업",
    "dept": "전자전기공학부",
    "date": "2026-08-27",
-   "views": 1843,
+   "views": 1858,
    "pinned": false
   },
   {
@@ -1014,7 +970,7 @@
    "category": "취업",
    "dept": "전자전기공학부",
    "date": "2026-08-26",
-   "views": 2337,
+   "views": 2357,
    "pinned": false
   },
   {
@@ -1025,7 +981,7 @@
    "category": "취업",
    "dept": "전자전기공학부",
    "date": "2026-08-24",
-   "views": 2180,
+   "views": 2204,
    "pinned": false
   },
   {
@@ -1047,7 +1003,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-08-24",
-   "views": 706,
+   "views": 709,
    "pinned": false
   },
   {
@@ -1080,7 +1036,7 @@
    "category": "채용/모집",
    "dept": "ice",
    "date": "2026-08-18",
-   "views": 6306,
+   "views": 6311,
    "pinned": false
   },
   {
@@ -1091,7 +1047,7 @@
    "category": "채용/모집",
    "dept": "전자전기공학부",
    "date": "2026-08-18",
-   "views": 2797,
+   "views": 2805,
    "pinned": false
   },
   {
@@ -1102,7 +1058,7 @@
    "category": "",
    "dept": "미래차부트캠프",
    "date": "2026-08-18",
-   "views": 896,
+   "views": 897,
    "pinned": false
   },
   {
@@ -1113,7 +1069,7 @@
    "category": "채용/모집",
    "dept": "정보통신대학",
    "date": "2026-08-14",
-   "views": 2961,
+   "views": 2965,
    "pinned": false
   },
   {
@@ -1124,7 +1080,7 @@
    "category": "수강신청",
    "dept": "전자전기공학부",
    "date": "2026-08-14",
-   "views": 3439,
+   "views": 3447,
    "pinned": false
   },
   {
@@ -1136,17 +1092,6 @@
    "dept": "미래차부트캠프사업단",
    "date": "2026-08-14",
    "views": 722,
-   "pinned": false
-  },
-  {
-   "source": "eee",
-   "id": "eee-223410",
-   "title": "2026년 하반기 KT&G 신입,경력사원 채용(~8/26(수) 15시까지)",
-   "url": "https://eee.skku.edu/eee/notice.do?mode=view&articleNo=223410",
-   "category": "취업",
-   "dept": "전자전기공학부",
-   "date": "2026-08-13",
-   "views": 2840,
    "pinned": false
   },
   {
@@ -1168,7 +1113,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-08-12",
-   "views": 579,
+   "views": 580,
    "pinned": false
   },
   {
@@ -1179,7 +1124,7 @@
    "category": "",
    "dept": "ice",
    "date": "2026-08-11",
-   "views": 3028,
+   "views": 3032,
    "pinned": false
   },
   {
@@ -1201,7 +1146,7 @@
    "category": "",
    "dept": "정보통신대학",
    "date": "2026-07-20",
-   "views": 1914,
+   "views": 1925,
    "pinned": false
   },
   {
@@ -1223,7 +1168,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-07-02",
-   "views": 1014,
+   "views": 1015,
    "pinned": false
   },
   {
@@ -1234,7 +1179,7 @@
    "category": "",
    "dept": "ice",
    "date": "2026-06-02",
-   "views": 4153,
+   "views": 4161,
    "pinned": false
   },
   {
@@ -1245,7 +1190,7 @@
    "category": "",
    "dept": "정보통신대학",
    "date": "2026-05-29",
-   "views": 2337,
+   "views": 2345,
    "pinned": false
   },
   {
@@ -1256,7 +1201,7 @@
    "category": "",
    "dept": "정보통신대학",
    "date": "2026-05-22",
-   "views": 3192,
+   "views": 3200,
    "pinned": false
   },
   {
@@ -1267,7 +1212,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-05-21",
-   "views": 1635,
+   "views": 1637,
    "pinned": false
   },
   {
@@ -1322,7 +1267,7 @@
    "category": "",
    "dept": "정보통신대학",
    "date": "2026-05-04",
-   "views": 3707,
+   "views": 3715,
    "pinned": false
   },
   {
@@ -1333,7 +1278,7 @@
    "category": "일반",
    "dept": "정보통신대학",
    "date": "2026-04-09",
-   "views": 5020,
+   "views": 5028,
    "pinned": false
   },
   {
@@ -1344,7 +1289,7 @@
    "category": "학사",
    "dept": "정보통신대학",
    "date": "2026-04-07",
-   "views": 10272,
+   "views": 10286,
    "pinned": false
   },
   {
@@ -1355,7 +1300,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-04-07",
-   "views": 1698,
+   "views": 1699,
    "pinned": false
   },
   {
@@ -1366,7 +1311,7 @@
    "category": "학사",
    "dept": "정보통신대학",
    "date": "2026-04-01",
-   "views": 4254,
+   "views": 4261,
    "pinned": false
   },
   {
@@ -1377,7 +1322,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-03-31",
-   "views": 1152,
+   "views": 1153,
    "pinned": false
   },
   {
@@ -1388,7 +1333,7 @@
    "category": "채용/모집",
    "dept": "정보통신대학",
    "date": "2026-03-30",
-   "views": 6327,
+   "views": 6335,
    "pinned": false
   },
   {
@@ -1399,7 +1344,7 @@
    "category": "",
    "dept": "미래차부트캠프사업단",
    "date": "2026-03-27",
-   "views": 6929,
+   "views": 6935,
    "pinned": false
   },
   {
@@ -1410,7 +1355,7 @@
    "category": "일반",
    "dept": "정보통신대학",
    "date": "2026-03-19",
-   "views": 2976,
+   "views": 2984,
    "pinned": false
   },
   {
@@ -1421,7 +1366,7 @@
    "category": "채용/모집",
    "dept": "ice",
    "date": "2026-03-19",
-   "views": 2933,
+   "views": 2943,
    "pinned": false
   },
   {
@@ -1443,7 +1388,7 @@
    "category": "일반",
    "dept": "정보통신대학",
    "date": "2026-03-04",
-   "views": 3164,
+   "views": 3167,
    "pinned": false
   },
   {
@@ -1454,7 +1399,7 @@
    "category": "채용/모집",
    "dept": "정보통신대학",
    "date": "2026-02-27",
-   "views": 2336,
+   "views": 2338,
    "pinned": false
   },
   {
@@ -1465,7 +1410,7 @@
    "category": "채용/모집",
    "dept": "정보통신대학",
    "date": "2026-02-27",
-   "views": 1772,
+   "views": 1778,
    "pinned": false
   },
   {
@@ -1476,7 +1421,7 @@
    "category": "채용/모집",
    "dept": "ice",
    "date": "2026-02-23",
-   "views": 7315,
+   "views": 7317,
    "pinned": false
   },
   {
@@ -1487,7 +1432,7 @@
    "category": "일반",
    "dept": "정보통신대학",
    "date": "2026-02-12",
-   "views": 1743,
+   "views": 1749,
    "pinned": false
   },
   {
@@ -1498,7 +1443,7 @@
    "category": "일반",
    "dept": "ice",
    "date": "2026-02-05",
-   "views": 5159,
+   "views": 5162,
    "pinned": false
   },
   {
@@ -1509,7 +1454,7 @@
    "category": "일반",
    "dept": "정보통신대학",
    "date": "2026-01-28",
-   "views": 2171,
+   "views": 2173,
    "pinned": false
   },
   {
@@ -1520,7 +1465,7 @@
    "category": "",
    "dept": "정보통신대학",
    "date": "2026-01-22",
-   "views": 2280,
+   "views": 2283,
    "pinned": false
   },
   {
@@ -1531,7 +1476,7 @@
    "category": "채용/모집",
    "dept": "정보통신대학",
    "date": "2026-01-21",
-   "views": 2103,
+   "views": 2110,
    "pinned": false
   }
  ]
