@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03 06:45",
+ "updated": "2026-11-03 15:55",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -561,6 +561,31 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-02 20:19",
+   "also": []
+  },
+  {
+   "id": "lk-361716",
+   "source": "linkareer",
+   "company": "와이즐리컴퍼니",
+   "title": "[SCM] 납기관리 인턴 (6개월)",
+   "url": "https://linkareer.com/activity/361716",
+   "apply_url": "",
+   "start": "2026-11-03",
+   "end": "2027-02-01",
+   "fields": [
+    "전체"
+   ],
+   "auto": "",
+   "jobs": [
+    "scm"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-03 15:55",
    "also": []
   },
   {
