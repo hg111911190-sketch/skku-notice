@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04 15:33",
+ "updated": "2026-11-05 02:18",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -142,33 +142,6 @@
    "also": []
   },
   {
-   "id": "lk-358413",
-   "source": "linkareer",
-   "company": "기아",
-   "title": "(사전공고) [기아] 26년 하반기 전환형 인턴 채용",
-   "url": "https://linkareer.com/activity/358413",
-   "apply_url": "https://www.kia.com/kr",
-   "start": "2026-10-23",
-   "end": "2026-11-04",
-   "fields": [
-    "사업기획/신규사업",
-    "마케팅기획/전략",
-    "영업관리/기획",
-    "MD/상품기획",
-    "전체"
-   ],
-   "auto": "현대자동차그룹",
-   "jobs": [],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-04 15:33",
-   "also": []
-  },
-  {
    "id": "jss-106853",
    "source": "jasoseol",
    "company": "울산항만공사",
@@ -285,6 +258,39 @@
    "source_name": "자소설닷컴",
    "first_seen": "2026-11-01 13:38",
    "also": []
+  },
+  {
+   "id": "lk-362160",
+   "source": "linkareer",
+   "company": "지엠테크니컬센터코리아",
+   "title": "[지엠테크니컬센터코리아] 2027 GMTCK 동계인턴십",
+   "url": "https://linkareer.com/activity/362160",
+   "apply_url": "https://www.gmtck.com/",
+   "start": "2026-11-04",
+   "end": "2026-11-15",
+   "fields": [
+    "QA/기술지원",
+    "기계/자동차/조선",
+    "전기/전자/반도체",
+    "기계설계/CAD"
+   ],
+   "auto": "",
+   "jobs": [
+    "전기/전자/반도체"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-05 02:18",
+   "also": [
+    {
+     "name": "자소설닷컴",
+     "url": "https://jasoseol.com/recruit/107050"
+    }
+   ]
   },
   {
    "id": "lk-343500",
@@ -621,6 +627,32 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
+   "also": []
+  },
+  {
+   "id": "lk-362081",
+   "source": "linkareer",
+   "company": "현대백화점",
+   "title": "[현대백화점] 2026년 하반기 현대백화점 안전관리자 신입사원 채용",
+   "url": "https://linkareer.com/activity/362081",
+   "apply_url": "https://www.ehyundai.com/gate.do",
+   "start": "2026-11-03",
+   "end": "2026-11-18",
+   "fields": [
+    "환경/안전관리",
+    "설비/기계유지보수"
+   ],
+   "auto": "",
+   "jobs": [
+    "설비/기계유지보수"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "no",
+   "reason": "2027년 2월 졸업예정 대상",
+   "evidence": "027년 2월 부 근무 가능자 (기졸업자 또는 2027년 2월 졸업 예정자) [전형 절차] ㆍ서류전형(1",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-05 02:18",
    "also": []
   },
   {
