@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04 08:27",
+ "updated": "2026-11-04 15:33",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -15,7 +15,7 @@
   {
    "id": "jasoseol",
    "name": "자소설닷컴",
-   "ok": false
+   "ok": true
   },
   {
    "id": "school",
@@ -112,6 +112,60 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
+   "also": []
+  },
+  {
+   "id": "lk-361929",
+   "source": "linkareer",
+   "company": "사이노슈어 루트로닉",
+   "title": "의료기기 연구&개발 Assistant (Verification)",
+   "url": "https://linkareer.com/activity/361929",
+   "apply_url": "https://kr.lutronic.com/index.html",
+   "start": "2026-11-04",
+   "end": "2027-02-02",
+   "fields": [
+    "기계/자동차/조선",
+    "전기/전자/반도체",
+    "바이오/제약연구개발"
+   ],
+   "auto": "",
+   "jobs": [
+    "전기/전자/반도체"
+   ],
+   "intern_type": "체험형 인턴",
+   "status": "ok",
+   "reason": "재학생 지원 가능",
+   "evidence": "분 전문학사 이상의 학위 소지자 (졸업 예정자, 휴학생 가능) 꼼꼼함과 정확성을 바탕으로 검증 및 측정",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-04 15:33",
+   "also": []
+  },
+  {
+   "id": "lk-358413",
+   "source": "linkareer",
+   "company": "기아",
+   "title": "(사전공고) [기아] 26년 하반기 전환형 인턴 채용",
+   "url": "https://linkareer.com/activity/358413",
+   "apply_url": "https://www.kia.com/kr",
+   "start": "2026-10-23",
+   "end": "2026-11-04",
+   "fields": [
+    "사업기획/신규사업",
+    "마케팅기획/전략",
+    "영업관리/기획",
+    "MD/상품기획",
+    "전체"
+   ],
+   "auto": "현대자동차그룹",
+   "jobs": [],
+   "intern_type": "채용연계형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-04 15:33",
    "also": []
   },
   {
@@ -468,31 +522,6 @@
    "also": []
   },
   {
-   "id": "lk-357532",
-   "source": "linkareer",
-   "company": "주식회사 라라스윗",
-   "title": "[라라스윗] SCM 인턴 (채용전환형)",
-   "url": "https://linkareer.com/activity/357532",
-   "apply_url": "",
-   "start": "2026-10-16",
-   "end": "2027-01-14",
-   "fields": [
-    "물류/SCM관리"
-   ],
-   "auto": "",
-   "jobs": [
-    "scm"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "OCR",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
-   "also": []
-  },
-  {
    "id": "lk-358036",
    "source": "linkareer",
    "company": "인피니언테크놀로지스코리아",
@@ -566,39 +595,6 @@
    "source_name": "링커리어",
    "first_seen": "2026-11-03 15:55",
    "also": []
-  },
-  {
-   "id": "lk-359136",
-   "source": "linkareer",
-   "company": "기아",
-   "title": "[기아] [26년 하반기 전환형 인턴] 국내사업 - 판매/마케팅/상품/경영지원/서비스기술",
-   "url": "https://linkareer.com/activity/359136",
-   "apply_url": "https://www.kia.com/kr",
-   "start": "2026-10-23",
-   "end": "2026-11-04",
-   "fields": [
-    "전체",
-    "경영기획/전략",
-    "서비스기획/운영",
-    "마케팅기획/전략",
-    "판매/매장관리",
-    "MD/상품기획"
-   ],
-   "auto": "현대자동차그룹",
-   "jobs": [],
-   "intern_type": "채용연계형 인턴",
-   "status": "no",
-   "reason": "2027년 8월 졸업예정 대상",
-   "evidence": "- 서비스(A/S) 기술 [지원 자격] - 2027년 8월 졸업 예정이신 분 (2026. 11.4 기준 4학",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
-   "also": [
-    {
-     "name": "링커리어",
-     "url": "https://linkareer.com/activity/358413"
-    }
-   ]
   },
   {
    "id": "lk-359994",
@@ -717,6 +713,22 @@
     {
      "name": "링커리어",
      "url": "https://linkareer.com/activity/350281"
+    },
+    {
+     "name": "자소설닷컴",
+     "url": "https://jasoseol.com/recruit/106741"
+    },
+    {
+     "name": "자소설닷컴",
+     "url": "https://jasoseol.com/recruit/106743"
+    },
+    {
+     "name": "자소설닷컴",
+     "url": "https://jasoseol.com/recruit/106746"
+    },
+    {
+     "name": "자소설닷컴",
+     "url": "https://jasoseol.com/recruit/106748"
     }
    ]
   },
