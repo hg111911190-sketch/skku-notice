@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05 15:55",
+ "updated": "2026-11-06 02:27",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -24,6 +24,27 @@
   }
  ],
  "items": [
+  {
+   "id": "school-skku-141602",
+   "source": "school",
+   "company": "학교 공지",
+   "title": "2026 현장실습(Co-op) 우수수기 공모전 개최(~11/8)",
+   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141602",
+   "apply_url": "",
+   "start": "2026-11-05",
+   "end": "2026-11-08",
+   "fields": [],
+   "auto": "",
+   "jobs": [],
+   "intern_type": "학교 공지",
+   "status": "ok",
+   "reason": "재학생 지원 가능",
+   "evidence": "수기 공모전 1. 참가자격: 최근 3년 이내 표준현장실습학기제에 참여하여 현장실습교과목을 이수한 자 *졸",
+   "basis": "본문",
+   "source_name": "학교 공지",
+   "first_seen": "2026-11-06 02:27",
+   "also": []
+  },
   {
    "id": "lk-357927",
    "source": "linkareer",
@@ -115,6 +136,35 @@
    "also": []
   },
   {
+   "id": "lk-362507",
+   "source": "linkareer",
+   "company": "비테스코테크놀로지스코리아",
+   "title": "[비테스코테크놀로지스코리아] 이천사업장 11월 신입 및 경력직 채용",
+   "url": "https://linkareer.com/activity/362507",
+   "apply_url": "https://www.vitesco-technologies.com",
+   "start": "2026-11-04",
+   "end": "2026-11-16",
+   "fields": [
+    "시스템/ERP개발",
+    "DevOps/클라우드/보안",
+    "생산/공정관리",
+    "전기/전자/반도체"
+   ],
+   "auto": "",
+   "jobs": [
+    "생산/공정관리",
+    "전기/전자/반도체"
+   ],
+   "intern_type": "체험형 인턴",
+   "status": "ok",
+   "reason": "재학생 지원 가능",
+   "evidence": "자격 및 우대조건 전기/전자공학 또는 관련 전공 재학 중이거나 졸업(예정)인 자 MS Office(Exce",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-06 02:27",
+   "also": []
+  },
+  {
    "id": "lk-361929",
    "source": "linkareer",
    "company": "사이노슈어 루트로닉",
@@ -139,38 +189,6 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-04 15:33",
-   "also": []
-  },
-  {
-   "id": "jss-106853",
-   "source": "jasoseol",
-   "company": "울산항만공사",
-   "title": "신입직원 (채용형 인턴) 및 체험형 청년인턴 채용",
-   "url": "https://jasoseol.com/recruit/106853",
-   "apply_url": "https://upa.incruit.com/main/main.asp",
-   "start": "2026-10-29",
-   "end": "2026-11-05",
-   "fields": [
-    "[채용형 인턴] 사무행정",
-    "[채용형 인턴] 정보기술(IT)",
-    "[체험형 청년인턴] 사무(경영)",
-    "[체험형 청년인턴] 사무(운영)",
-    "[체험형 청년인턴] 안전",
-    "[체험형 청년인턴] 환경",
-    "[체험형 청년인턴] 전기",
-    "[체험형 청년인턴] 정보기술"
-   ],
-   "auto": "",
-   "jobs": [
-    "전기"
-   ],
-   "intern_type": "",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "OCR",
-   "source_name": "자소설닷컴",
-   "first_seen": "2026-11-01 13:38",
    "also": []
   },
   {
@@ -257,6 +275,32 @@
    "basis": "OCR",
    "source_name": "자소설닷컴",
    "first_seen": "2026-11-01 13:38",
+   "also": []
+  },
+  {
+   "id": "lk-362446",
+   "source": "linkareer",
+   "company": "네이버",
+   "title": "[네이버] 음성번역 품질 평가/멀티모달 번역 연구 (인턴)",
+   "url": "https://linkareer.com/activity/362446",
+   "apply_url": "https://www.navercorp.com/main",
+   "start": "2026-11-05",
+   "end": "2026-11-13",
+   "fields": [
+    "데이터분석",
+    "AI/ML엔지니어"
+   ],
+   "auto": "",
+   "jobs": [
+    "품질"
+   ],
+   "intern_type": "체험형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-06 02:27",
    "also": []
   },
   {
@@ -652,6 +696,34 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
+   "also": []
+  },
+  {
+   "id": "jss-107096",
+   "source": "jasoseol",
+   "company": "세방그룹",
+   "title": "2026년 4분기 정기채용",
+   "url": "https://jasoseol.com/recruit/107096",
+   "apply_url": "https://sebang.recruiter.co.kr/career/home?utm_source=jasoseol&utm_medium=banner&utm_campaign=2611sebang",
+   "start": "2026-11-06",
+   "end": "2026-11-15",
+   "fields": [
+    "[세방(주)] 물류운영",
+    "[세방(주)] 경영지원",
+    "[세방(주)] 안전관리",
+    "[세방전지(주)] 품질관리"
+   ],
+   "auto": "",
+   "jobs": [
+    "품질"
+   ],
+   "intern_type": "",
+   "status": "no",
+   "reason": "2027년 2월 졸업예정 대상",
+   "evidence": "종료 후 정규 입사가 가능한 분 - 기졸업자 및 2027년 2월 졸업 예정자 BY 기준은 계열사 We Sol +",
+   "basis": "OCR",
+   "source_name": "자소설닷컴",
+   "first_seen": "2026-11-06 02:27",
    "also": []
   },
   {
