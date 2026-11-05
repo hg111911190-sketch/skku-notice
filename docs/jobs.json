@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05 08:44",
+ "updated": "2026-11-05 15:55",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -315,6 +315,31 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
+   "also": []
+  },
+  {
+   "id": "lk-362249",
+   "source": "linkareer",
+   "company": "코오롱인더스트리",
+   "title": "[코오롱인더스트리] 김천1공장 설비지원 인턴 채용",
+   "url": "https://linkareer.com/activity/362249",
+   "apply_url": "",
+   "start": "2026-11-04",
+   "end": "2026-11-17",
+   "fields": [
+    "전체"
+   ],
+   "auto": "",
+   "jobs": [
+    "설비"
+   ],
+   "intern_type": "체험형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-05 15:55",
    "also": []
   },
   {
