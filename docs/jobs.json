@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06 08:40",
+ "updated": "2026-11-06 15:55",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -301,6 +301,31 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-06 02:27",
+   "also": []
+  },
+  {
+   "id": "lk-362596",
+   "source": "linkareer",
+   "company": "세방전지",
+   "title": "[세방전지] 2026년 4분기 세방전지(주) 채용연계형 인턴 채용",
+   "url": "https://linkareer.com/activity/362596",
+   "apply_url": "",
+   "start": "2026-11-06",
+   "end": "2026-11-15",
+   "fields": [
+    "품질관리(QC/QA)"
+   ],
+   "auto": "",
+   "jobs": [
+    "품질관리(QC/QA)"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-06 15:55",
    "also": []
   },
   {
