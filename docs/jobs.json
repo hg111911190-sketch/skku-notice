@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08 09:43",
+ "updated": "2026-11-08 17:01",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -21,30 +21,14 @@
    "id": "school",
    "name": "학교 공지",
    "ok": true
+  },
+  {
+   "id": "tollgate",
+   "name": "현장실습 시스템",
+   "ok": true
   }
  ],
  "items": [
-  {
-   "id": "school-skku-141602",
-   "source": "school",
-   "company": "학교 공지",
-   "title": "2026 현장실습(Co-op) 우수수기 공모전 개최(~11/8)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141602",
-   "apply_url": "",
-   "start": "2026-11-05",
-   "end": "2026-11-08",
-   "fields": [],
-   "auto": "",
-   "jobs": [],
-   "intern_type": "학교 공지",
-   "status": "ok",
-   "reason": "재학생 지원 가능",
-   "evidence": "수기 공모전 1. 참가자격: 최근 3년 이내 표준현장실습학기제에 참여하여 현장실습교과목을 이수한 자 *졸",
-   "basis": "본문",
-   "source_name": "학교 공지",
-   "first_seen": "2026-11-06 02:27",
-   "also": []
-  },
   {
    "id": "lk-357927",
    "source": "linkareer",
@@ -162,6 +146,27 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-06 02:27",
+   "also": []
+  },
+  {
+   "id": "tg-8a439fc6bee187955c25d74b2fe74a61",
+   "source": "tollgate",
+   "company": "현장실습지원센터",
+   "title": "2026학년도 겨울학기 현장실습 학생 지원 신청 안내(~11/29)",
+   "url": "https://tollgate.skku.edu/main/board/notice/view.do?encBbsSeq=8a439fc6bee187955c25d74b2fe74a61",
+   "apply_url": "",
+   "start": "2026-10-30",
+   "end": "2026-11-29",
+   "fields": [],
+   "auto": "",
+   "jobs": [],
+   "intern_type": "학점연계 현장실습",
+   "status": "ok",
+   "reason": "2학년 이상 대상 (현재 3학년)",
+   "evidence": "여를 부탁드립니다. ○ 참여자격: 성균관대학교 2학년 이상 재학생 중 2026학년도 겨울학기 학점 인정이 가",
+   "basis": "본문",
+   "source_name": "현장실습 시스템",
+   "first_seen": "2026-11-08 17:01",
    "also": []
   },
   {
