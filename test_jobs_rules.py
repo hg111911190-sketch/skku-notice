@@ -103,6 +103,33 @@ class Matching(unittest.TestCase):
         self.assertFalse(title_excluded("[현대자동차] 2027 하계 인턴십"))
 
 
+class TollgateTitles(unittest.TestCase):
+    """현장실습 시스템 공지 제목에서 실습 기관 뽑기 (제목은 실제 게시글)."""
+
+    def test_company(self):
+        from jobs import tollgate_company
+        cases = {
+            "2026년 겨울학기 국립생물자원관 현장실습생 모집(~11.17)": "국립생물자원관",
+            "[공지]2026년 겨울학기 '비상교육' 현장실습생 모집 안내(~11.15.)": "비상교육",
+            "2026년 겨울학기 '지속가능발전기업협의회[KBCSD]' 현장실습생 모집 안내(~11.22.)": "지속가능발전기업협의회[KBCSD]",
+            "2026년 하반기 (주)샘표식품 현장실습생 모집 안내(~5.3.)": "(주)샘표식품",
+            "2026학년도 1학기 삼성전자 DS부문 장기현장실습 참여 학생 모집 안내(~1/30, 13:00, 기한 엄수)": "삼성전자 DS부문",
+            "2026년 1학기 성균관대학교 HD현대 채용연계형 현장실습학기제 참여 학생 모집(~1/22, 15:00)": "HD현대",
+            "[GC녹십자] 2025학년도 겨울학기 표준현장실습 학기 학생 지원신청 안내(~11.12.)": "GC녹십자",
+            # 학교 전체 모집 안내는 기관이 없다
+            "2026학년도 겨울학기 현장실습 학생 지원 신청 안내(~11/29)": "",
+            "2026학년도 1학기 표준 현장실습학기제 프로그램 참여 학생 모집(~2/4)": "",
+            '2025학년도 겨울학기 "표준 현장실습학기제" 프로그램 참여 학생 모집(~11.30)': "",
+        }
+        for title, company in cases.items():
+            self.assertEqual(tollgate_company(title), company, title)
+
+    def test_company_name_is_not_a_job(self):
+        from jobs import without_company
+        body = "지속가능발전기업협의회 [KBCSD] 에서 2026 년 겨울학기 현장실습에 참여할 학생을 모집합니다"
+        self.assertFalse(job_matches(without_company(body, "지속가능발전기업협의회[KBCSD]")))
+
+
 class Profile(unittest.TestCase):
     def test_profile(self):
         self.assertEqual((grade_on(TODAY), semesters_done(TODAY)), (3, 5))

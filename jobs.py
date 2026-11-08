@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """인턴 공고를 모아 내 조건(jobs_rules.py)에 맞는 것을 골라 사이트·캘린더·알림으로 내보낸다.
 
-소스: 링커리어(본문 텍스트), 자소설닷컴 채용 달력(본문이 이미지라 OCR), 학교·학과 공지(docs/notices.json).
+소스: 링커리어(본문 텍스트), 자소설닷컴 채용 달력(본문이 이미지라 OCR), 학교·학과 공지(docs/notices.json),
+      현장실습 시스템(tollgate.skku.edu) 공개 공지사항.
 결과: docs/jobs.json · docs/jobs.js (사이트), docs/jobs.ics (캘린더 구독), cache/jobs_cache.json (상세·알림 기록)
 알림: MAIL_USER(Gmail 주소) + MAIL_APP_PASSWORD(앱 비밀번호) 환경변수가 있으면 Gmail 로 보낸다. 받는 주소는 MAIL_TO(없으면 MAIL_USER).
 
@@ -18,6 +19,7 @@ import subprocess
 import sys
 import tempfile
 import time
+import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from email.mime.text import MIMEText
@@ -42,9 +44,10 @@ LK_LIST = ("query($f:ActivityFilter,$o:ActivityOrder,$p:Pagination){activities(f
            "{nodes{id title organizationName recruitStartAt recruitCloseAt categories{name} distinctInternTypes{name} homepageURL}}}")
 LK_DETAIL = "query($id:ID!){activity(id:$id){detailText{text}}}"
 JSS_CAL = "https://jasoseol.com/employment/calendar_list.json"
+TG_BOARD = "https://tollgate.skku.edu/main/board/notice/"
 
-SOURCES = {"linkareer": "링커리어", "jasoseol": "자소설닷컴", "school": "학교 공지"}
-ID_PREFIX = {"linkareer": "lk", "jasoseol": "jss", "school": "school"}
+SOURCES = {"linkareer": "링커리어", "jasoseol": "자소설닷컴", "school": "학교 공지", "tollgate": "현장실습 시스템"}
+ID_PREFIX = {"linkareer": "lk", "jasoseol": "jss", "school": "school", "tollgate": "tg"}
 STATUS_ORDER = {"ok": 0, "check": 1, "no": 2}
 
 
@@ -285,6 +288,93 @@ def collect_school(ctx):
     return out
 
 
+# ── 현장실습 시스템 공지사항 (로그인 없이 보이는 게시판) ─────────────────
+# 기업별 '현장실습생 모집' 글과 학기별 '학생 지원 신청 안내'가 올라온다.
+# 기관 조회(전체 실습처 목록)는 로그인해야 보여서 여기서는 다루지 않는다.
+TG_STUDENT_RE = re.compile(r"현장실습생|채용연계|장기\s*현장실습|인턴|현장실습.*(?:학생|참여).*(?:모집|신청)")
+TG_SKIP_RE = re.compile(r"기업\s*모집|운영\s*일정|공모전|우수\s*수기")
+TG_GENERIC = "현장실습지원센터"
+
+
+def tollgate_company(title):
+    """제목에서 실습 기관 이름을 뽑는다. 학교 전체 모집 안내처럼 기관이 없으면 ''."""
+    t = re.sub(r"\[(?:공지|중요|공학|안내)\]", " ", title or "")
+    m = re.search(r"['‘\"“]([^'’\"”]+)['’\"”]", t) or re.search(r"\[([^\]]+)\]", t)
+    if m:
+        name = m.group(1).strip()
+    else:
+        t = re.sub(r"\([^)]*~[^)]*\)|\*\s*마감", " ", t).replace("성균관대학교", " ")
+        t = re.sub(r"^\s*\d{4}\s*(?:학년도|년)?\s*(?:상반기|하반기)?\s*(?:\d학기|겨울학기|여름학기|동계|하계)?\s*", "", t)
+        m = re.match(r"\s*(.+?)\s*(?:채용연계|장기\s*현장실습|현장실습|인턴)", t)
+        name = m.group(1).strip() if m else ""
+    return "" if re.search(r"표준|프로그램|학생|참여|학기", name) else name
+
+
+def without_company(text, company):
+    """본문에서 기관 이름을 지운다 ('지속가능발전기업협의회'의 '전기' 오인 방지)."""
+    for part in re.split(r"[\[\]()\s]+", re.sub(r"\(주\)|㈜|주식회사", " ", company or "")):
+        if len(part) >= 2:
+            text = text.replace(part, " ")
+    return text
+
+
+def tollgate_rows(page):
+    """목록 한 페이지 → [(encBbsSeq, 제목, 등록일)]"""
+    body = urllib.parse.urlencode({"page": page}).encode()
+    req = urllib.request.Request(TG_BOARD + "index.do", data=body, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=45) as r:
+        doc = r.read().decode("utf-8", errors="replace")
+    rows = []
+    for tr in re.findall(r"<tr>(.*?)</tr>", doc, re.S):
+        m = re.search(r"index\.board\.view\('([0-9a-f]+)'\)\"?\s*>(.*?)</a>", tr, re.S)
+        posted = re.search(r"<td>\s*(\d{4}-\d{2}-\d{2})\s*</td>", tr)
+        if m and posted:
+            rows.append((m.group(1), strip_html(m.group(2)), posted.group(1)))
+    return rows
+
+
+def tollgate_text(enc):
+    text = strip_html(request(f"{TG_BOARD}view.do?encBbsSeq={enc}"))
+    i, j = text.find("등록자"), text.rfind("목록")
+    if i < 0 or j <= i:
+        return text[:8000]
+    return text[text.find("\n", i) + 1:j].strip()[:8000]
+
+
+def collect_tollgate(ctx):
+    school_titles = set()
+    if NOTICES.exists():  # 학교 공지에도 같은 글이 올라오면 학교 공지 쪽만 남긴다
+        school_titles = {re.sub(r"\W", "", n.get("title") or "")
+                         for n in json.loads(NOTICES.read_text(encoding="utf-8")).get("items", [])}
+    cutoff = (ctx.now - timedelta(days=60)).strftime("%Y-%m-%d")
+    out, seen = [], set()
+    for page in (1, 2):
+        for enc, title, posted in tollgate_rows(page):
+            norm = re.sub(r"\W", "", title)
+            if (enc in seen or norm in school_titles or posted < cutoff or re.search(r"\*\s*마감", title)
+                    or not TG_STUDENT_RE.search(title) or TG_SKIP_RE.search(title) or R.title_excluded(title)):
+                continue
+            seen.add(enc)
+            end = school_deadline(title, posted)
+            if end and end < ctx.today_s:
+                continue
+            key = f"tg-{enc}"
+            d = ctx.detail(key, lambda: {"text": tollgate_text(enc)})
+            company = tollgate_company(title)
+            group = R.auto_group(company)
+            jobs = R.job_matches(without_company(title, company), without_company((d or {}).get("text", ""), company))
+            if company and not group and not jobs:  # 기관 공고는 직무가 맞을 때만
+                continue
+            out.append(ctx.item(
+                id=key, source="tollgate", company=company or TG_GENERIC, title=title,
+                url=f"{TG_BOARD}view.do?encBbsSeq={enc}", apply_url="", start=posted, end=end, fields=[],
+                auto=group, jobs=jobs if company else [], intern_type="학점연계 현장실습",
+                text=d.get("text") if d else None, basis="본문",
+            ))
+        time.sleep(0.5)
+    return out
+
+
 # ── 실행 상태 (캐시·판정) ────────────────────────────────────────────
 class Context:
     def __init__(self, now, cache, prev_items, first_run):
@@ -484,7 +574,8 @@ def main():
     print(f"OCR: {'사용 (' + ctx.ocr_exe + ')' if ctx.ocr_exe else '없음 — 자소설 이미지 공고는 확인 필요로 표시'}")
 
     items, sources, failed = [], [], set()
-    for sid, collect in (("linkareer", collect_linkareer), ("jasoseol", collect_jasoseol), ("school", collect_school)):
+    for sid, collect in (("linkareer", collect_linkareer), ("jasoseol", collect_jasoseol), ("school", collect_school),
+                         ("tollgate", collect_tollgate)):
         try:
             got, ok = collect(ctx), True
         except Exception as e:  # 한 곳이 죽어도 나머지는 갱신
