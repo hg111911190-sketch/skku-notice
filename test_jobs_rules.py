@@ -44,6 +44,12 @@ class Eligibility(unittest.TestCase):
         self.check("3학년 이상 재학생", "ok")
         self.check("4학년 재학생", "check")
         self.check("○ 참여자격: 성균관대학교 2학년 이상 재학생 중 2026학년도 겨울학기 학점 인정이 가능한 학생", "ok")
+        # 현장실습 시스템 학생요건 (노무법인 디오, 이타스코리아)
+        self.check("[공통 지원 자격] 4년제 대학 3, 4학년 재학생, 휴학생 또는 졸업예정자", "ok")
+        self.check("- 학년: 4학년 - 학점: 3.7이상 - 전공: 정보통신학/컴퓨터공학/임베디드공학/전자 전공자", "check")
+        self.check("학년: 3학년 이상", "ok")
+        self.check("3~4학년 재학생", "ok")
+        self.check("1, 2학년 재학생", "no")
 
     def test_status_words(self):
         self.check("국내외 4년제 대학 재학생 또는 졸업예정자", "ok")
@@ -93,6 +99,7 @@ class Matching(unittest.TestCase):
         self.assertFalse(job_matches(strip_company("[LG전자] 브랜드 마케팅 인턴", "LG전자")))
         self.assertFalse(job_matches("글로벌 2차전지 부품 제조기업 인사·총무 채용 (숙소+차량 지원)"))
         self.assertTrue(job_matches("차량용 반도체 검증"))
+        self.assertFalse(job_matches("단백질공학팀 DNA prep, 항체 유전자 클로닝 및 정제"))  # '유전자'의 '전자'
 
     def test_title_excluded(self):
         self.assertTrue(title_excluded("[미국인턴/앨라배마] 완성차 부품 제조 및 물류기업 - 인턴 채용"))
