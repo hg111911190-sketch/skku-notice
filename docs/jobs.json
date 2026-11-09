@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 15:44",
+ "updated": "2026-11-10 04:53",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -29,38 +29,6 @@
   }
  ],
  "items": [
-  {
-   "id": "lk-357927",
-   "source": "linkareer",
-   "company": "서울교통공사",
-   "title": "[서울교통공사] 2026 하반기 신입사원(채용형인턴) 공개채용 공고(~11/09)",
-   "url": "https://linkareer.com/activity/357927",
-   "apply_url": "",
-   "start": "2026-11-03",
-   "end": "2026-11-09",
-   "fields": [
-    "전체",
-    "기계/자동차/조선",
-    "전기/전자/반도체",
-    "배송/운송/화물",
-    "건축/인테리어설계",
-    "시공/현장관리/감리",
-    "토목/조경",
-    "전기/소방/설비"
-   ],
-   "auto": "",
-   "jobs": [
-    "전기/전자/반도체"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "ok",
-   "reason": "재학생 지원 가능",
-   "evidence": "관리 [자격요건] - 만 18세 이상자 - 학력제한없음 [근무조건] - 월 약 300만원(세전기준",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
-   "also": []
-  },
   {
    "id": "lk-319386",
    "source": "linkareer",
@@ -146,6 +114,27 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-06 02:27",
+   "also": []
+  },
+  {
+   "id": "school-futurecar-67796",
+   "source": "school",
+   "company": "미래자동차",
+   "title": "2026 겨울학기 현장실습 신청 안내 - 11/29(일)까지 [접수]",
+   "url": "https://swb.skku.edu/futurecar/notice.do?mode=view&articleNo=67796",
+   "apply_url": "",
+   "start": "2026-11-09",
+   "end": "2026-11-29",
+   "fields": [],
+   "auto": "",
+   "jobs": [],
+   "intern_type": "미래자동차",
+   "status": "ok",
+   "reason": "3·4학년 대상 (현재 3학년)",
+   "evidence": "! 미래차 부트캠프 중급 및 고급을 이수 중인 3, 4학년 재학생을 대상으로 2026 겨울학기 현장실습을 진",
+   "basis": "본문",
+   "source_name": "학교 공지",
+   "first_seen": "2026-11-10 04:53",
    "also": []
   },
   {
@@ -363,6 +352,33 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
+   "also": []
+  },
+  {
+   "id": "jss-107153",
+   "source": "jasoseol",
+   "company": "한국GM",
+   "title": "2027 동계인턴사원 모집 (생산/안전/품질)",
+   "url": "https://jasoseol.com/recruit/107153",
+   "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Incheon-Korea-Republic-of/GM----_JR-202623905-1",
+   "start": "2026-11-09",
+   "end": "2026-11-16",
+   "fields": [
+    "생산",
+    "안전",
+    "품질"
+   ],
+   "auto": "기타 자동차",
+   "jobs": [
+    "품질"
+   ],
+   "intern_type": "",
+   "status": "check",
+   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
+   "evidence": "ing 130점 이상. -해외 대학 졸업자. 또는 졸업 예정자는 1061 점수 제줄이 면제. 인턴 연수기간 내",
+   "basis": "OCR",
+   "source_name": "자소설닷컴",
+   "first_seen": "2026-11-10 04:53",
    "also": []
   },
   {
