@@ -512,7 +512,7 @@ def send(subject, body):
         s.send_message(msg)
 
 
-def notify(items, cache, today):
+def notify(items, cache, today, label="인턴"):
     """새 공고(조건 충족·확인 필요)와 마감 임박 공고를 알린다. 보낸 것은 cache 에 기록한다."""
     live = [it for it in items if it["status"] != "no"]
     fresh = [it for it in live if it["id"] not in cache["notified"]]
@@ -542,23 +542,23 @@ def notify(items, cache, today):
         return
     if not cache.get("announced"):  # 처음 연결됐을 때는 목록 대신 요약만
         ok = [it for it in live if it["status"] == "ok"]
-        body = (f"인턴 공고 알림이 연결됐습니다.\n현재 조건 충족 {len(ok)}건, 확인 필요 {len(live) - len(ok)}건."
+        body = (f"{label} 알림이 연결됐습니다.\n현재 조건 충족 {len(ok)}건, 확인 필요 {len(live) - len(ok)}건."
                 + ("\n\n" + "\n\n".join(describe(it, today) for it in ok[:10]) if ok else "")
                 + (f"\n\n전체 목록: {url}" if url else ""))
-        cache["announced"] = deliver("[인턴 알림] 연결 완료", body)
+        cache["announced"] = deliver(f"[{label} 알림] 연결 완료", body)
         return
 
     parts, listed = [], {it["id"] for it in fresh + upgraded}
-    for label, group in (("✅ 조건 충족", [it for it in fresh if it["status"] == "ok"] + upgraded),
-                         ("❔ 확인 필요", [it for it in fresh if it["status"] == "check"]),
-                         (f"⏰ 마감 {REMIND_DAYS}일 이내", [it for it in soon if it["id"] not in listed])):
+    for head, group in (("✅ 조건 충족", [it for it in fresh if it["status"] == "ok"] + upgraded),
+                        ("❔ 확인 필요", [it for it in fresh if it["status"] == "check"]),
+                        (f"⏰ 마감 {REMIND_DAYS}일 이내", [it for it in soon if it["id"] not in listed])):
         if group:
-            parts.append(label + "\n\n" + "\n\n".join(describe(it, today) for it in group))
+            parts.append(head + "\n\n" + "\n\n".join(describe(it, today) for it in group))
     if not parts:
         return
     n = len(fresh) + len(upgraded)
-    deliver(f"[인턴 알림] 새 공고 {n}건" if n else "[인턴 알림] 마감 임박",
-            (f"🔔 인턴 공고 새로 {n}건\n\n" if n else "") + "\n\n".join(parts) + (f"\n\n전체 목록: {url}" if url else ""))
+    deliver(f"[{label} 알림] 새 공고 {n}건" if n else f"[{label} 알림] 마감 임박",
+            (f"🔔 {label} 공고 새로 {n}건\n\n" if n else "") + "\n\n".join(parts) + (f"\n\n전체 목록: {url}" if url else ""))
 
 
 # ── main ─────────────────────────────────────────────────────────────

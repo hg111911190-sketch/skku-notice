@@ -27,7 +27,7 @@ JOB_KEYWORDS = [
 ]
 # 키워드를 포함하지만 직무와 무관한 말 (먼저 지운 뒤 키워드를 찾는다)
 JOB_EXCLUDE = [
-    "전자상거래", "전자결재", "전자책", "전자문서", "전자신문", "전기신문", "공정거래", "공정무역",
+    "전자상거래", "전자결재", "전자책", "전자문서", "전자신문", "전기신문", "공정거래", "공정무역", "유전자",
     "삼성전자", "lg전자", "엘지전자", "전자랜드",
 ]
 # 제목이 이렇게 생기면 아예 뺀다. 해외 J-1 인턴 알선(12~18개월 풀타임, 휴학 필요)과 생산직.
@@ -148,6 +148,10 @@ _SEMESTER_RE = re.compile(r"(\d)학기(?:이상|이수|수료|를?마친|를?마
 _GRADE_MIN_RE = re.compile(r"([1-4])학년이상")
 _GRADE_EXACT_RE = re.compile(r"([1-4])학년(?:재학|휴학|학생)")
 _GRADE_UNDER_RE = re.compile(r"([1-4])학년(?:([12])학기)?미만")
+# '3, 4학년 재학생', '3~4학년', '3학년 또는 4학년' 처럼 여러 학년을 나열한 것
+_GRADE_LIST_RE = re.compile(r"([1-4])(?:학년)?(,|~|·|/|및|또는|혹은)([1-4])학년(?!미만)")
+# 현장실습 시스템의 '학년: 4학년' 형식 (뒤에 '이상'이 없으면 그 학년만)
+_GRADE_FIELD_RE = re.compile(r"학년[:：]([1-4])학년(?!이상|미만)")
 _STUDENT_RE = re.compile(r"재학생|재학중|휴학생|대학생|학년무관|학력무관|학년제한없|학력제한없|전학년"
                          r"|학점연계|현장실습학기|학점인정|학점등록")
 _ANY_EDU_RE = re.compile(r"고졸이상|고등학교졸업이상|고등학교졸업자이상")
@@ -254,10 +258,20 @@ def classify(text, title="", today=None):
     m = _GRADE_UNDER_RE.search(t)
     if m and (grade, 1) < (int(m.group(1)), int(m.group(2) or 1)):
         return res("ok", f"{m.group(1)}학년{' ' + m.group(2) + '학기' if m.group(2) else ''} 미만 재학생", *m.span())
-    m = _GRADE_MIN_RE.search(t) or _GRADE_EXACT_RE.search(t)
+    m = _GRADE_LIST_RE.search(t)
+    if m:
+        a, b = int(m.group(1)), int(m.group(3))
+        grades = set(range(a, b + 1)) if m.group(2) == "~" else {a, b}
+        label = "·".join(map(str, sorted(grades))) + "학년"
+        if grade in grades:
+            return res("ok", f"{label} 대상 (현재 {grade}학년)", *m.span())
+        if grade + 1 in grades:
+            return res("check", f"{label} 대상 (현재 {grade}학년, 내년엔 해당)", *m.span())
+        return res("no", f"{label} 대상 (현재 {grade}학년)", *m.span())
+    m = _GRADE_MIN_RE.search(t) or _GRADE_EXACT_RE.search(t) or _GRADE_FIELD_RE.search(t)
     if m:
         n = int(m.group(1))
-        exact = m.re is _GRADE_EXACT_RE
+        exact = m.re is not _GRADE_MIN_RE
         if (n == grade) or (not exact and n < grade):
             return res("ok", f"{n}학년{'' if exact else ' 이상'} 대상 (현재 {grade}학년)", *m.span())
         if n == grade + 1:
