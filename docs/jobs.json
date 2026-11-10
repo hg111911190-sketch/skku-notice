@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 04:53",
+ "updated": "2026-11-10 12:37",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -352,33 +352,6 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
-   "also": []
-  },
-  {
-   "id": "jss-107153",
-   "source": "jasoseol",
-   "company": "한국GM",
-   "title": "2027 동계인턴사원 모집 (생산/안전/품질)",
-   "url": "https://jasoseol.com/recruit/107153",
-   "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Incheon-Korea-Republic-of/GM----_JR-202623905-1",
-   "start": "2026-11-09",
-   "end": "2026-11-16",
-   "fields": [
-    "생산",
-    "안전",
-    "품질"
-   ],
-   "auto": "기타 자동차",
-   "jobs": [
-    "품질"
-   ],
-   "intern_type": "",
-   "status": "check",
-   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
-   "evidence": "ing 130점 이상. -해외 대학 졸업자. 또는 졸업 예정자는 1061 점수 제줄이 면제. 인턴 연수기간 내",
-   "basis": "OCR",
-   "source_name": "자소설닷컴",
-   "first_seen": "2026-11-10 04:53",
    "also": []
   },
   {
@@ -775,6 +748,40 @@
    "source_name": "자소설닷컴",
    "first_seen": "2026-11-06 02:27",
    "also": []
+  },
+  {
+   "id": "lk-363226",
+   "source": "linkareer",
+   "company": "한국GM",
+   "title": "[한국GM] 2027 동계인턴사원 모집 (생산/안전/품질)",
+   "url": "https://linkareer.com/activity/363226",
+   "apply_url": "",
+   "start": "2026-11-09",
+   "end": "2026-11-16",
+   "fields": [
+    "생산/공정관리",
+    "품질관리(QC/QA)",
+    "환경/안전관리"
+   ],
+   "auto": "기타 자동차",
+   "jobs": [
+    "생산/공정관리",
+    "품질관리(QC/QA)",
+    "품질"
+   ],
+   "intern_type": "체험형 인턴",
+   "status": "no",
+   "reason": "2027년 2월 졸업예정 대상",
+   "evidence": "참조 [자격요건] - 4년제 대학 학사 혹은 27년 2월 졸업예정자 - 평점 B이상 혹은 4.5점 만점",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-10 12:37",
+   "also": [
+    {
+     "name": "자소설닷컴",
+     "url": "https://jasoseol.com/recruit/107153"
+    }
+   ]
   },
   {
    "id": "lk-362081",
