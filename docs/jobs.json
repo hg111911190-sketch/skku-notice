@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 12:37",
+ "updated": "2026-11-10 23:58",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -695,6 +695,39 @@
    "also": []
   },
   {
+   "id": "lk-363314",
+   "source": "linkareer",
+   "company": "Finetech US, Inc. ",
+   "title": "글로벌 반도체 프로젝트 및 현장 기술 지원 전문 회사 공무 / 구매 / 총무 / 자재관리 / 재무 / 품질 / 설계 / 현장 코디네이터 모집",
+   "url": "https://linkareer.com/activity/363314",
+   "apply_url": "http://fine-tech.kr/",
+   "start": "2026-11-10",
+   "end": "2027-02-08",
+   "fields": [
+    "전체",
+    "전체",
+    "전체",
+    "전체",
+    "전체",
+    "재무/회계/세무",
+    "전체"
+   ],
+   "auto": "",
+   "jobs": [
+    "반도체",
+    "품질",
+    "구매"
+   ],
+   "intern_type": "체험형 인턴, 채용연계형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-10 23:58",
+   "also": []
+  },
+  {
    "id": "lk-359994",
    "source": "linkareer",
    "company": "SK케미칼",
@@ -864,6 +897,31 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
+   "also": []
+  },
+  {
+   "id": "lk-363373",
+   "source": "linkareer",
+   "company": "현대자동차",
+   "title": "[현대자동차] [서비스엔지니어 채용전환형 인턴십] High-Tech Talent Track",
+   "url": "https://linkareer.com/activity/363373",
+   "apply_url": "https://www.hyundai.com/kr/ko/e",
+   "start": "2026-11-10",
+   "end": "2026-11-30",
+   "fields": [
+    "품질관리(QC/QA)"
+   ],
+   "auto": "현대자동차그룹",
+   "jobs": [
+    "품질관리(QC/QA)"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "no",
+   "reason": "2027년 2월 졸업예정 대상",
+   "evidence": "[지원자격] · 학사 학위를 기 취득하셨거나 '27년 2월 졸업 예정이신 분 (단, 진단/정비 우수역량 보유",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-10 23:58",
    "also": []
   },
   {
