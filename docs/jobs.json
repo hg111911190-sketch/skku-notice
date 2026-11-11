@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11 15:35",
+ "updated": "2026-11-12 02:14",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -29,64 +29,6 @@
   }
  ],
  "items": [
-  {
-   "id": "lk-319386",
-   "source": "linkareer",
-   "company": "슈나이더 일렉트릭 코리아(주)",
-   "title": "[슈나이더 일렉트릭] 27년 상반기  현장 실습 인턴 채용 - 품질, 엔지니어, 기술영업, HR, B2B마케팅, B2B고객지원, 품질, 프로덕트 마케팅, 영업지원, 사업개발 등",
-   "url": "https://linkareer.com/activity/319386",
-   "apply_url": "https://www.se.com/kr/ko/",
-   "start": "2026-10-28",
-   "end": "2026-11-11",
-   "fields": [
-    "경영기획/전략",
-    "사업기획/신규사업",
-    "서비스기획/운영",
-    "인사/채용/노무",
-    "총무/법무/비서",
-    "재무/IR",
-    "사무/문서관리",
-    "마케팅기획/전략",
-    "브랜드마케팅",
-    "디지털/퍼포먼스마케팅",
-    "SNS/콘텐츠마케팅",
-    "광고기획/AE",
-    "PR/홍보",
-    "시장조사/리서치",
-    "전시/컨벤션",
-    "전체",
-    "B2B영업",
-    "기술영업",
-    "영업관리/기획",
-    "판매/매장관리",
-    "고객상담/CS",
-    "텔레마케팅(TM)",
-    "전기/전자/반도체",
-    "재무/회계/세무",
-    "IB/M&A",
-    "무역영업/해외영업",
-    "무역사무/수출입/통관",
-    "구매/자재관리",
-    "물류/SCM관리",
-    "MD/상품기획",
-    "배송/운송/화물",
-    "교육기획/교재개발"
-   ],
-   "auto": "",
-   "jobs": [
-    "전기/전자/반도체",
-    "구매/자재관리",
-    "품질"
-   ],
-   "intern_type": "체험형 인턴",
-   "status": "ok",
-   "reason": "재학생 지원 가능",
-   "evidence": "지원 자격 (필수) 6개월 근무 가능자 · 학점 연계 현장실습 인턴으로 겨울방학 + 1학기 모두 학점",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
-   "also": []
-  },
   {
    "id": "lk-362507",
    "source": "linkareer",
@@ -183,33 +125,6 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-04 15:33",
-   "also": []
-  },
-  {
-   "id": "lk-361091",
-   "source": "linkareer",
-   "company": "한국경남태양유전",
-   "title": "[한국경남태양유전] 채용연계형 인턴 모집 (총무, 품질관리)",
-   "url": "https://linkareer.com/activity/361091",
-   "apply_url": "https://taiyoyuden.career.rivers.co.kr/",
-   "start": "2026-10-30",
-   "end": "2026-11-11",
-   "fields": [
-    "총무/법무/비서",
-    "품질관리(QC/QA)"
-   ],
-   "auto": "",
-   "jobs": [
-    "품질관리(QC/QA)",
-    "품질"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
-   "evidence": "총무 - 학위: 전문대졸 이상 졸업 또는 졸업예정자 - 운전면허 소지(1종보통) 및 실제 운전",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
    "also": []
   },
   {
@@ -728,6 +643,31 @@
    "also": []
   },
   {
+   "id": "lk-363687",
+   "source": "linkareer",
+   "company": "카카오스타일",
+   "title": "[카카오스타일] [인턴] 데이터 품질 운영(DQ)",
+   "url": "https://linkareer.com/activity/363687",
+   "apply_url": "https://kakaostyle.com/",
+   "start": "2026-11-11",
+   "end": "2027-02-09",
+   "fields": [
+    "데이터분석"
+   ],
+   "auto": "",
+   "jobs": [
+    "품질"
+   ],
+   "intern_type": "",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-12 02:14",
+   "also": []
+  },
+  {
    "id": "lk-359994",
    "source": "linkareer",
    "company": "SK케미칼",
@@ -815,6 +755,46 @@
      "url": "https://jasoseol.com/recruit/107153"
     }
    ]
+  },
+  {
+   "id": "jss-107182",
+   "source": "jasoseol",
+   "company": "피에스케이",
+   "title": "[PSK그룹] 11월 직무별 수시모집",
+   "url": "https://jasoseol.com/recruit/107182",
+   "apply_url": "https://psk.recruiter.co.kr/career/jobs/133740",
+   "start": "2026-11-07",
+   "end": "2026-11-17",
+   "fields": [
+    "PSK/PSKH-기술영업-인턴",
+    "PSK/PSKH-공정개발-인턴",
+    "PSK/PSKH-기구설계-인턴",
+    "PSK/PSKH-전장설계-인턴",
+    "PSK/PSKH-전장설계(Laser)-인턴",
+    "PSK/PSKH-요소기술 개발 (Plasma source)-인턴",
+    "PSK/PSKH-요소기술개발(Laser)-인턴",
+    "PSK/PSKH-S/W개발-인턴",
+    "PSK/PSKH-구매관리-인턴",
+    "PSK/PSKH-전략/개발구매-신입",
+    "PSK/PSKH-물류관리-인턴",
+    "PSK/PSKH-생산관리-인턴",
+    "PSK/PSKH-부품영업(GLS)-인턴"
+   ],
+   "auto": "",
+   "jobs": [
+    "전장",
+    "생산관리",
+    "공정",
+    "구매"
+   ],
+   "intern_type": "",
+   "status": "no",
+   "reason": "졸업자 대상",
+   "evidence": "/중국어 가능자 우대 필수사항 Jol 사항: 학사 이상 : 산업공학/통계학, 컴퓨터공학 정보학, 전기전자",
+   "basis": "OCR",
+   "source_name": "자소설닷컴",
+   "first_seen": "2026-11-12 02:14",
+   "also": []
   },
   {
    "id": "lk-362081",
