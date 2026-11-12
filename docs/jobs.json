@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 09:47",
+ "updated": "2026-11-12 20:23",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -77,6 +77,39 @@
    "basis": "본문",
    "source_name": "학교 공지",
    "first_seen": "2026-11-10 04:53",
+   "also": []
+  },
+  {
+   "id": "lk-364073",
+   "source": "linkareer",
+   "company": "아우모비오 코리아",
+   "title": "아우모비오 코리아 | 제3기 아우모비오스타(AUMOVIO star) 인턴십 프로그램 모집",
+   "url": "https://linkareer.com/activity/364073",
+   "apply_url": "https://www.aumovio.com/en.html",
+   "start": "2026-11-12",
+   "end": "2026-11-29",
+   "fields": [
+    "인사/채용/노무",
+    "B2B영업",
+    "기술영업",
+    "영업관리/기획",
+    "생산/공정관리",
+    "품질관리(QC/QA)",
+    "기계/자동차/조선",
+    "물류/SCM관리"
+   ],
+   "auto": "",
+   "jobs": [
+    "생산/공정관리",
+    "품질관리(QC/QA)"
+   ],
+   "intern_type": "체험형 인턴",
+   "status": "ok",
+   "reason": "재학생 지원 가능",
+   "evidence": "집 🚀 채용 절차 • 지원 자격 : 4년제 대학교 재학생, 졸업예정자, 기졸업자 • 근무 기간 : 2027",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-12 20:23",
    "also": []
   },
   {
@@ -322,6 +355,32 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-05 15:55",
+   "also": []
+  },
+  {
+   "id": "lk-363930",
+   "source": "linkareer",
+   "company": "유한화학",
+   "title": "[유한화학] 생산관리자 채용전환형 인턴 사원 모집 (2026년 11월)",
+   "url": "https://linkareer.com/activity/363930",
+   "apply_url": "https://yhc.recruiter.co.kr/career/home",
+   "start": "2026-11-13",
+   "end": "2026-11-19",
+   "fields": [
+    "생산/공정관리"
+   ],
+   "auto": "",
+   "jobs": [
+    "생산/공정관리",
+    "생산관리"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "check",
+   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
+   "evidence": "업무 대응 [필수사항] · 4년제 대학교 졸업(예정)자 [우대사항] · 원료의약품 관련 생산관리",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-12 20:23",
    "also": []
   },
   {
@@ -665,6 +724,31 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-12 02:14",
+   "also": []
+  },
+  {
+   "id": "lk-364052",
+   "source": "linkareer",
+   "company": "주식회사 에이피알",
+   "title": "[품질] 뷰티디바이스 수입검사 담당 채용연계형 인턴사원 모집",
+   "url": "https://linkareer.com/activity/364052",
+   "apply_url": "https://apr-careers.com/",
+   "start": "2026-11-12",
+   "end": "2027-02-10",
+   "fields": [
+    "전체"
+   ],
+   "auto": "",
+   "jobs": [
+    "품질"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "OCR",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-12 20:23",
    "also": []
   },
   {
@@ -1013,6 +1097,35 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
+   "also": []
+  },
+  {
+   "id": "lk-363846",
+   "source": "linkareer",
+   "company": "오비맥주",
+   "title": "[오비맥주] 광주공장 기술직 정규직 전환형 인턴 채용",
+   "url": "https://linkareer.com/activity/363846",
+   "apply_url": "https://www.ob.co.kr/",
+   "start": "2026-11-12",
+   "end": "2027-02-10",
+   "fields": [
+    "품질관리(QC/QA)",
+    "설비/기계유지보수",
+    "물류/SCM관리",
+    "배송/운송/화물"
+   ],
+   "auto": "",
+   "jobs": [
+    "품질관리(QC/QA)",
+    "설비/기계유지보수"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "no",
+   "reason": "졸업자 대상",
+   "evidence": "- 물류팀 지게차 [공통 자격요건] · 초대졸 이상 졸업자 · 교대근무 및 주/야간 근무 가능한",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-12 20:23",
    "also": []
   }
  ]
