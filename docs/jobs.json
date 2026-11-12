@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 20:23",
+ "updated": "2026-11-13 05:00",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -409,6 +409,43 @@
    "also": []
   },
   {
+   "id": "lk-364093",
+   "source": "linkareer",
+   "company": "에어퍼스트",
+   "title": "[에어퍼스트] 2027년 동계 각 부문 인턴 채용공고",
+   "url": "https://linkareer.com/activity/364093",
+   "apply_url": "https://www.airfst.com/kr/",
+   "start": "2026-11-12",
+   "end": "2026-11-26",
+   "fields": [
+    "사업기획/신규사업",
+    "인사/채용/노무",
+    "사무/문서관리",
+    "AI/ML엔지니어",
+    "구매/자재관리",
+    "건축/인테리어설계",
+    "환경/플랜트",
+    "전체"
+   ],
+   "auto": "",
+   "jobs": [
+    "구매/자재관리"
+   ],
+   "intern_type": "체험형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-13 05:00",
+   "also": [
+    {
+     "name": "자소설닷컴",
+     "url": "https://jasoseol.com/recruit/107203"
+    }
+   ]
+  },
+  {
    "id": "lk-348210",
    "source": "linkareer",
    "company": "인터엑스",
@@ -591,6 +628,31 @@
    "basis": "OCR",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
+   "also": []
+  },
+  {
+   "id": "jss-107219",
+   "source": "jasoseol",
+   "company": "에이피알",
+   "title": "[품질] 뷰티디바이스 수입검사 담당 채용연계형 인턴사원 모집",
+   "url": "https://jasoseol.com/recruit/107219",
+   "apply_url": "https://apr-careers.com/",
+   "start": "2026-11-12",
+   "end": "2027-01-10",
+   "fields": [
+    "뷰티디바이스 수입검사 담당"
+   ],
+   "auto": "",
+   "jobs": [
+    "품질"
+   ],
+   "intern_type": "",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "OCR",
+   "source_name": "자소설닷컴",
+   "first_seen": "2026-11-13 05:00",
    "also": []
   },
   {
@@ -904,6 +966,35 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-05 02:18",
+   "also": []
+  },
+  {
+   "id": "lk-364103",
+   "source": "linkareer",
+   "company": "KLA",
+   "title": "[KLA] 2026년 11월 신입 정규직 채용",
+   "url": "https://linkareer.com/activity/364103",
+   "apply_url": "https://www.kla.com/ko",
+   "start": "2026-11-13",
+   "end": "2026-11-22",
+   "fields": [
+    "데이터분석",
+    "설비/기계유지보수",
+    "전기/전자/반도체",
+    "전체"
+   ],
+   "auto": "",
+   "jobs": [
+    "설비/기계유지보수",
+    "전기/전자/반도체"
+   ],
+   "intern_type": "체험형 인턴",
+   "status": "no",
+   "reason": "2027년 2월 졸업예정 대상",
+   "evidence": "- 인턴 자격요건 ㆍ4년제 이공계열 학사 2027년 2월 졸업예정자 ㆍ전기/전자, 기계, 물리, 광학, 신",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-13 05:00",
    "also": []
   },
   {
