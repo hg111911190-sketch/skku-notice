@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 20:07",
+ "updated": "2026-11-14 04:47",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -161,39 +161,6 @@
    "also": []
   },
   {
-   "id": "jss-106204",
-   "source": "jasoseol",
-   "company": "경기테크노파크",
-   "title": "2026 스마트제조 전문인력 육성사업 실무 인턴십 모집",
-   "url": "https://jasoseol.com/recruit/106204",
-   "apply_url": "https://gtp.career.greetinghr.com/ko/o/229417",
-   "start": "2026-09-14",
-   "end": "2026-11-13",
-   "fields": [
-    "생산관리",
-    "품질관리",
-    "설비운영",
-    "MES/ERP 운영",
-    "AI/SW 개발",
-    "데이터분석",
-    "솔루션구축"
-   ],
-   "auto": "",
-   "jobs": [
-    "생산관리",
-    "설비",
-    "품질"
-   ],
-   "intern_type": "",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "OCR",
-   "source_name": "자소설닷컴",
-   "first_seen": "2026-11-01 13:38",
-   "also": []
-  },
-  {
    "id": "lk-362596",
    "source": "linkareer",
    "company": "세방전지",
@@ -329,6 +296,33 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-05 15:55",
+   "also": []
+  },
+  {
+   "id": "jss-107153",
+   "source": "jasoseol",
+   "company": "한국GM",
+   "title": "2027 동계인턴사원 모집 (생산/안전/품질)",
+   "url": "https://jasoseol.com/recruit/107153",
+   "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Incheon-Korea-Republic-of/GM----_JR-202623905-1",
+   "start": "2026-11-09",
+   "end": "2026-11-17",
+   "fields": [
+    "생산",
+    "안전",
+    "품질"
+   ],
+   "auto": "기타 자동차",
+   "jobs": [
+    "품질"
+   ],
+   "intern_type": "",
+   "status": "check",
+   "reason": "공고가 이미지라 자격 미확인 (OCR 대기)",
+   "evidence": "",
+   "basis": "제목",
+   "source_name": "자소설닷컴",
+   "first_seen": "2026-11-14 04:47",
    "also": []
   },
   {
@@ -869,12 +863,7 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-10 12:37",
-   "also": [
-    {
-     "name": "자소설닷컴",
-     "url": "https://jasoseol.com/recruit/107153"
-    }
-   ]
+   "also": []
   },
   {
    "id": "jss-107182",
