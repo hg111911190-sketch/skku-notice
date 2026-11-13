@@ -155,12 +155,6 @@
     "/images/activity/banner/template_1_banner.webp"
    ]
   },
-  "lk-362446": {
-   "text": "[네이버] 음성번역 품질 평가/멀티모달 번역 연구 (인턴) \n [What You'll Do] \n ﻿- 함께 진행할 프로젝트는 아래 두 가지입니다. 아래 두 프로젝트 중 하나를 선택하여 지원해 주세요. \n [프로젝트 1] 음성번역 LLM judge 메타평가: 언어쌍별 신뢰도 검증과 편향 분석 \n • LLM을 평가자(LLM judge)로 활용하여 음성인식 및 음성번역 결과를 평가합니다. \n • 사람평가 결과를 모아 메타평가셋을 만들고, 언어·잡음·장르별 judge 점수와 \n • 사람평가 점수가 얼마나 일치하는지 측정합니다. \n • 특정 유형에서 LLM Judge가 점수를 과도하게 높거나 낮게 부여하는 편향을 찾아 분류하고, \n • 프롬프트 수정 등 완화 방법을 실험합니다. \n [프로젝트 2] 화면 의존 오역 케이스셋 구축 및 화면 정보 활용 효과 측정 \n • e스포츠 생중계에서 음성 정보만으로 번역할 때 발생하는 선수명, 팀명, 스킬명 등의 오역 사례를 수집하여 \n • 화면에 표시되는 정보를 통해 정확한 번역이 가능한 사례를 선별하고, 유형별 케이스셋을 구축합니다. \n • 화면 속 글자를 OCR로 읽어 번역 프롬프트에 넣었을 때 오역이 얼마나 줄어드는지 측정합니다. \n • 영상을 모델에 직접 넣는 방식과 비교하여, 어떤 종목과 화면 구성에서 효과가 큰지 분석합니다. \n [Required Skills] \n ﻿﻿• Python을 활용하여 간단한 데이터 처리나 실험 코드를 작성해 본 경험이 필요합니다. \n • 기계번역, LLM 평가, 멀티모달 AI 중 한 가지 이상 분야에 관심이 필요합니다. \n ﻿﻿• 영어 논문이나 기술 문서를 읽고 주요 내용을 정리할 수 있는 분을 찾습니다. \n [Preferred Skills] \n ﻿• 실험 결과를 체계적으로 정리하고 동료들과 적극적으로 공유하는 데 익숙한 분을 환영합니다. \n • LLM 프롬프트를 설계하거나 LLM을 활용하여 결과물을 평가해 본 경험이 있다면 더욱 좋습니다. \n • 음성인식 또는 기계번역 관련 프로젝트나 연구에 참여한 경험이 있는 분을 우대합니다. \n • 영상·이미지에서 텍스트를 추출(OCR)하거나 비전-언어 모델(VLM)을 다루어 보셨다면 \n • 해당 경험을 적극 활용할 수 있습니다. \n • 상관관계 등 기초 통계 기법을 실험 분석에 적용해 본 경험이 있다면 과제 수행에 도움이 됩니다. \n • e스포츠 종목과 중계 화면 구성에 익숙하다면 관련 과제를 더욱 깊이 있게 수행할 수 있습니다. \n • 관련 분야의 논문을 게재하거나 학회 워크숍·경진대회에 참여해 본 경험도 도움이 됩니다.",
-   "imgs": [
-    "https://media-cdn.linkareer.com/se2editor/image/981372"
-   ]
-  },
   "jss-107096": {
    "fields": [
     "[세방(주)] 물류운영",
@@ -180,9 +174,6 @@
    "imgs": [
     "https://sebang.recruiter.co.kr/upload/58813/image/202611/0e6d8cb7-d169-4f59-a765-f3a057b231ca.png"
    ]
-  },
-  "tg-8a439fc6bee187955c25d74b2fe74a61": {
-   "text": "2026학년도 겨울학기 현장실습 참여를 위한 학생 지원 신청 절차를 안내드립니다. \n 첨부된 안내자료를 확인하시어 적극적인 참여를 부탁드립니다. \n ○ 참여자격: 성균관대학교 2학년 이상 재학생 중 2026학년도 겨울학기 학점 인정이 가능한 학생 \n ※ 반드시 본인의 학적 상태를 확인한 후 지원 \n ○ 지원방법: 톨게이트시스템( http://tollgate.edu/) 접속 → GLS 아이디(학생) 로그인 → 현장실습기관 조회 → “2026-겨울학기 표준 현장실습학기제 프로그램” → 탭 선택 → 참여 희망 기업 지원 \n ○ 신청 및 실습 기간 \n 1) 신청 기간: 2026. 11. 9.(월) ~ 11. 29.(일) \n 2) 실습 기간: 2026. 12. 21.(월) ~ 2027. 2. 28.(일) \n ※ 기업별 상이(기업 운영계획서 참고) \n ○ 참여기업 확인: 톨게이트 시스템 접속 → 신청관리 → 현장실습기관 조회 \n ○ 유의사항 \n 1) 현장실습 교과목 수강 필수 \n 2) 기업별 선발 일정 및 방법 상이 \n 3) 중복지원 불가(탈락 후 타 기업 지원 가능) \n 4) 현장실습 이론과목 동시 수강 불가(중대형 온라인(I-campus) 강의 또는 100% 온라인 동영상 강의에 한해 가능) \n ○ 문의 \n 1) 학점 인정 관련 문의: 각 학과 행정실 *첨부파일은 참고용이며, 학과별 현장실습 교과목 개설현황은 소속학과에 문의 \n 2) 기타 현장실습 관련 문의 \n - 인문사회캠퍼스 학과: 02-740-1627 \n - 자연과학캠퍼스 학과: 031-299-4449 \n - 이메일: coop@skku.edu \n 붙임1. 표준현장실습학기제 안내자료 \n 붙임2. 학과별 현장실습교과목 개설현황 \n 2026학년도 겨울학기 현장실습 학생 모집 포스터.png \n 붙임1.pdf \n 붙임2.pdf"
   },
   "lk-362943": {
    "text": "[PSK] 11월 직무별 수시모집 \n [모집분야] \n - Global HR \n - 기술영업/마케팅\n - 공정개발\n - 기구설계\n - 전장설계\n - 전장설계(레이저)\n - 요소기술개발(레이저, 플라즈마소스_\n - SW\n - SW(레이저)\n - 구매관리\n - 전략개발구매\n - MFG(Manufacturing Engineering)\n - 부품영업\n [자격요건] \n - 각 모집별 상세분야 참조\n - 4년제 이상, 학점 평점 3.5이상(4.5만점 기준/경력자학점무관)\n [채용절차] \n - 서류전형 - 통합역량검사 - 직무역량 test - 1차/2ck면접 - 채용검진 - 최종합격\n [공고상세]",
@@ -288,6 +279,9 @@
    ],
    "text": "",
    "ocr": "FORMENT            GLAM.D&°           PHOTOGRAY\n\nAPRILSKIN\n\nmedicube*\nAdvance People's Real life\n\nz    마\n이\n더    권\n4   곰 Kio\n이   = a\n그\n세 Fi\nmM   끄\n로 메모\n또   ml =\nK   x ©\na   = KO\n4 FB\nan und\nku   olnl 음                                  70\n—a                                —                         HO   a! fo                                  a\nx                    ol  oF\n= Of                         did\nㄴ            roy                        Ko   i) yy                                 제\nㅜ~]                fin           배               zu      a ORS                               2\n—                         Rl                           jo                                                       a\n—    K       os                or      펑 을 패                                 기                                                                   an\n바              나 No             주     인 og                           빌                                            로          a\nond,                                                             KR\naf a  을   =  에      오백        ral      mR                               ui           TH        1H           =              시 3           떠\n을 bal 그            LL      od    18  = 브                      떠          권     z                   a         이\n세             Oo A a  <|   <1  4p                °       베   Do                                너 핀            10        권            과               mu 비          00\n브       그   가        그리       20     x  < =                          4 FS          OF       jo          a             Nb oO         x\n그 oF of (ll   of =             100     Rm 이                        yee          버       야          은            ※ 0 그        =\n—             40  Ol 9          (S)  .    ㄴㄴ        rt      FO   ~ 2                           pr 의 혀 OK                    꿔            N              w= WD          <\nLu            fee e Gat 띠       Bi     a gs                       보기 들 또          *       a          z            로 보현      =\nSs +> >   그    uo                 z  bo                       4 411 ROE        0:       =                      au =          =\nIF      에 그은 s,s ta @    eo of Be        weed     =    =      é       고로    리볼\npra         ra       =   1  wT 그      0  =  그    se Fy     Ae a  H  xX      대        BR, 및    매 해\n~ un Of 또          HO Rls     70  7  포    제 Kp?     Kod  =  =      0      ao sem    r OK\naie    mt ot 4 qu = O    +10   et     aw 간 그 펄    a ee 자     ene RY     =      을 © eR    a oo\n=      Kat Ol oS gp SN    a   z om     ® © E &    om Sw     eee 8 jg    zi    wo Hog BS    i 2\n°              KJ 01 =   eT           쁜     xz 손배         배   a   =       기 ov 중 싸        fa = &   Sg OF      =      Il   전 인 호프      OS.\nfe.     Wogan sm OM S   주 목인 |e    Pees   eh Et    Seek 228   e   은 288s   na\n7  —      Nl  oa 4  el Gz 바 HI   ro)       na   그 회  메 Ho         <I 때 x z ail       nr a 인 a        al LS m0 =<   2 LH =      a     배 등   nw 때 a 동  여   = a\n_   =      —                  =>     iy  >   R       a a          =                   때    그      K\n0 이오 기 이  글      ao @ 5 gf     S$pmowp mH   ies 뽀    Rew 이 ©  066 © GQ 장   s &  Syke =  zl\n<- 4   TE KO    +7 O               = 2  2 KO         고 80 RM il jl RO     di 16 Sf        10 RL @ x mM     °  1   pal   아   ~ S   주  x W  jo\nan          —  ol =   (ad       가   N 코 고 =         2 애 TH wo 하 OH   여 536 mo oD      글 2 압제 뜨   자 o= &   =       ao:   jok 08     =   oF\n191 11 LH  개미  ㅎ        dq 금므고모     그 조그  야 몬   여 에 이 권    Sy iw ㅎㅎ  x oom    =  kw F  & ak ar y  =x oO\nfil  —      a) oy Zl  fio — TE id Hl   (©)       <|   Ww a z i x         t & o* 에 al a   ew Kt 제 배      에 Pal gm 떠   는 SH   Kr   a   = yw *0   ° * ‘ar 때  4   aK mi\n~          = 이             Ww               10    pre  a           ~          고            ㅡ    이         = —   =          =\nCh    피 을   mW 3               mw oF Ye ©        홈   aooee   여   7   여    za mM   Hom lu   호      ee 비   럭  xo    ol   mW\nar onl     Tl  ay           (2)   wo FF oo Se        od Sp ww 힌     해 이 QO 해      oo ol ay     moo Ju   19   뜨   al 을 (Ke   o x  S      nO\n배           이 a 21  과 뽀 55  OF 유   Y       [개   에 My 2 Hh         Ww EK Fe wR   Ko gg ㅁ 에   을   버 A = 0 은   mos K   원   그   Sk 후   2 ee RO   Wt\nol 2 O ul oO  ㄷㄷ 그  ~    > n 2e im gy    wn 2s y wm x KO uF LH JU oH 업  2 a Ow 그  배 중 2 ‘a  a  6 2 oH  8 여 조 sy  il kK\n내구   Bo <3 줌퀘중 Wo    uv  이 2m = mS   ad Fak a =  nN oy KR jo Ol  더  비중 Io 주  11 인 2  =  =  m 주 증  을 버 포비    Ra\n=|      oa   S                   RU 중 mM = HO a         x 조             이 글        i   Iu 조     sla           soon       버  fF   Rr\n—   —     고    =   LU       Ww   i   벼 S tT @     Bb 2 8 mo ao Ko   — oo 때 x Kk   RK   =z ow H 8 헤   버 ㅎ 오   비   ul  mo 해 위   on K RK  “1     K\n<)  ld uw  <| nH <0  fH qq                Hl  Ol  KO  a,        > KE          오 ㅁㅁ of ml 과        ro   O x   a = «0   =   ov  rex wg 주   a, RO KE GK  10:    KI |\n=  ~        =    US             IE   =  그 Wop az 0      에 =< = Ho WW rb Aa   +0       ion   mW 무 jor   제 돈 8  so 2 그   Tm 0 호  a © &K xin  “nN 가 후  +    A\no = 1 떠메주 MM jo  —     — 고 ow koa   wo My oP Wo  wo eo So Eze en 6 eg Bho K FF Fe RN eg SP Pee oe ol  » &\nKu    jo OX Re BW yy      fw 69 =z er WH = F      m ol 마 그      Kom FO 땐 wn F&F FO wo 매   0 go 매피 때 도 버마 마포 마   rE]   —% &\n= 두  =a 이     mo 자재 과 pM 운   끈 = a o wm   wm +3 o 배호 FTI Hk HW   mw 0 of «8B ol RO   oF mW md = MM  o af 피\nHH  & xl it & wo 해   pr ar  뽀 er  | ae |  을 Fee me ㆍ  toe 8 0 을 sm ,\n[0   100 «=H jo 3 wr 80      ㅇ                 ㅇ             ㅇㅇ 너            =          K ot    He        pL          ㅎ  ax\n\n수 있습니다.\n\n될\nI\n\n경우 채용이 취소\n\nA\nut\n\ni\n\n히\n\n추\n[그\n\n|이 불가하오니 이 점 유의하여 주시기 바랍니다.\n\n1위 서류를 제\n\n허\n\n과 다르거나,\n\nAl\n2\n\n서 내용이 사\n\n|\n\nec\n\n* 지운\n\n* 지원서 내용이 사실과 다르거나, 허위 서류를 제출하신 경우 채용이 취소\n\n더욱 자세한 에이피알의 함류 여정 알아보기\n\n지원 시 참고해 보세요\n*에이피알 기업 홈페이지 (클릭)\n\n* 에이피알 채용 공식 SNS (블로그 / 유튜브 / 인스타그램 / 링크드인\n\n램      인)\n\n기타 유의사항\n\n"
+  },
+  "school-skku-141926": {
+   "text": "게시글 내용 \n 2026학년도 겨울학기 현장실습 참여를 위한 학생 지원 신청 절차를 안내드립니다. \r\n첨부된 안내자료를 확인하시어 적극적인 참여를 부탁드립니다.\r\n○ 참여자격: 성균관대학교 2학년 이상 재학생 중 2026학년도 겨울학기 학점 인정이 가능한 학생\r\n※ 반드시 본인의 학적 상태를 확인한 후 지원 \r\n○ 지원방법: 톨게이트시스템(http://tollgate.edu/) 접속 → GLS 아이디(학생) 로그인 → 현장실습기관 조회 → “2026-겨울학기 표준 현장실습학기제 프로그램” → 탭 선택 → 참여 희망 기업 지원\r\n○ 신청 및 실습 기간\r\n1) 신청 기간: 2026. 11. 9.(월) ~ 11. 29.(일)\r\n2) 실습 기간: 2026. 12. 21.(월) ~ 2027. 2. 28.(일)\r\n※ 기업별 상이(기업 운영계획서 참고)\r\n○ 참여기업 확인: 톨게이트 시스템 접속 → 신청관리 → 현장실습기관 조회\r\n○ 유의사항\r\n1) 현장실습 교과목 수강 필수\r\n2) 기업별 선발 일정 및 방법 상이\r\n3) 중복지원 불가(탈락 후 타 기업 지원 가능)\r\n4) 현장실습 이론과목 동시 수강 불가(중대형 온라인(I-campus) 강의 또는 100% 온라인 동영상 강의에 한해 가능)\r\n○ 문의\r\n1) 학점 인정 관련 문의: 각 학과 행정실 *첨부파일은 참고용이며, 학과별 현장실습 교과목 개설현황은 소속학과에 문의\r\n2) 기타 현장실습 관련 문의 \r\n- 인문사회캠퍼스 학과: 02-740-1627\r\n- 자연과학캠퍼스 학과: 031-299-4449\r\n- 이메일: coop@skku.edu\r\n붙임1. 표준현장실습학기제 안내자료\r\n붙임2. 학과별 현장실습교과목 개설현황 \n <a href=\"#\" class=\""
   }
  },
  "notified": {
@@ -312,9 +306,7 @@
   "lk-362160": "check",
   "lk-362249": "check",
   "lk-362507": "ok",
-  "lk-362446": "check",
   "lk-362596": "check",
-  "tg-8a439fc6bee187955c25d74b2fe74a61": "ok",
   "lk-362943": "check",
   "school-futurecar-67796": "ok",
   "lk-363314": "check",
@@ -323,7 +315,8 @@
   "lk-363930": "check",
   "lk-364052": "check",
   "lk-364093": "check",
-  "jss-107219": "check"
+  "jss-107219": "check",
+  "school-skku-141926": "ok"
  },
  "reminded": {
   "lk-362507": "2026-11-13"
