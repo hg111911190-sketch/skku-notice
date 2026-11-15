@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15 15:41",
+ "updated": "2026-11-16 01:25",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -159,64 +159,6 @@
    "source_name": "링커리어",
    "first_seen": "2026-11-04 15:33",
    "also": []
-  },
-  {
-   "id": "lk-362596",
-   "source": "linkareer",
-   "company": "세방전지",
-   "title": "[세방전지] 2026년 4분기 세방전지(주) 채용연계형 인턴 채용",
-   "url": "https://linkareer.com/activity/362596",
-   "apply_url": "",
-   "start": "2026-11-06",
-   "end": "2026-11-15",
-   "fields": [
-    "품질관리(QC/QA)"
-   ],
-   "auto": "",
-   "jobs": [
-    "품질관리(QC/QA)"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-06 15:55",
-   "also": []
-  },
-  {
-   "id": "lk-362160",
-   "source": "linkareer",
-   "company": "지엠테크니컬센터코리아",
-   "title": "[지엠테크니컬센터코리아] 2027 GMTCK 동계인턴십",
-   "url": "https://linkareer.com/activity/362160",
-   "apply_url": "https://www.gmtck.com/",
-   "start": "2026-11-04",
-   "end": "2026-11-15",
-   "fields": [
-    "QA/기술지원",
-    "기계/자동차/조선",
-    "전기/전자/반도체",
-    "기계설계/CAD"
-   ],
-   "auto": "",
-   "jobs": [
-    "전기/전자/반도체"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-05 02:18",
-   "also": [
-    {
-     "name": "자소설닷컴",
-     "url": "https://jasoseol.com/recruit/107050"
-    }
-   ]
   },
   {
    "id": "lk-343500",
@@ -779,61 +721,6 @@
    "basis": "OCR",
    "source_name": "링커리어",
    "first_seen": "2026-11-12 20:23",
-   "also": []
-  },
-  {
-   "id": "lk-359994",
-   "source": "linkareer",
-   "company": "SK케미칼",
-   "title": "[SK케미칼] 청주공장 의약품 생산공정 운영·관리 담당자 신입(전환형 인턴) 모집",
-   "url": "https://linkareer.com/activity/359994",
-   "apply_url": "https://www.skchemicals.com/",
-   "start": "2026-10-26",
-   "end": "2026-11-15",
-   "fields": [
-    "생산/공정관리",
-    "환경/안전관리"
-   ],
-   "auto": "",
-   "jobs": [
-    "생산/공정관리",
-    "공정"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "no",
-   "reason": "2027년 2월 졸업예정 대상",
-   "evidence": "최적화 [필수사항] - 학력 : 학사 이상(‘27년도 2월 졸업예정자 및 취업계 사용 인원 지원 가능)",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
-   "also": []
-  },
-  {
-   "id": "jss-107096",
-   "source": "jasoseol",
-   "company": "세방그룹",
-   "title": "2026년 4분기 정기채용",
-   "url": "https://jasoseol.com/recruit/107096",
-   "apply_url": "https://sebang.recruiter.co.kr/career/home?utm_source=jasoseol&utm_medium=banner&utm_campaign=2611sebang",
-   "start": "2026-11-06",
-   "end": "2026-11-15",
-   "fields": [
-    "[세방(주)] 물류운영",
-    "[세방(주)] 경영지원",
-    "[세방(주)] 안전관리",
-    "[세방전지(주)] 품질관리"
-   ],
-   "auto": "",
-   "jobs": [
-    "품질"
-   ],
-   "intern_type": "",
-   "status": "no",
-   "reason": "2027년 2월 졸업예정 대상",
-   "evidence": "종료 후 정규 입사가 가능한 분 - 기졸업자 및 2027년 2월 졸업 예정자 BY 기준은 계열사 We Sol +",
-   "basis": "OCR",
-   "source_name": "자소설닷컴",
-   "first_seen": "2026-11-06 02:27",
    "also": []
   },
   {
