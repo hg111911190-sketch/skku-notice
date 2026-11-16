@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 07:54",
+ "updated": "2026-11-16 15:39",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -291,31 +291,6 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-12 20:23",
-   "also": []
-  },
-  {
-   "id": "lk-345797",
-   "source": "linkareer",
-   "company": "비나우",
-   "title": "[체험형 인턴] 글로벌 인허가 담당자(RA)(6개월~)",
-   "url": "https://linkareer.com/activity/345797",
-   "apply_url": "",
-   "start": "2026-08-26",
-   "end": "2026-11-24",
-   "fields": [
-    "품질관리(QC/QA)"
-   ],
-   "auto": "",
-   "jobs": [
-    "품질관리(QC/QA)"
-   ],
-   "intern_type": "체험형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "OCR",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
    "also": []
   },
   {
@@ -879,6 +854,31 @@
    ]
   },
   {
+   "id": "lk-364614",
+   "source": "linkareer",
+   "company": "한국공항",
+   "title": "[한국공항] [26년 12월] 항공정비 신입사원 모집",
+   "url": "https://linkareer.com/activity/364614",
+   "apply_url": "https://www.kas.co.kr/",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "fields": [
+    "기계/자동차/조선"
+   ],
+   "auto": "",
+   "jobs": [
+    "공정"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "no",
+   "reason": "졸업자 대상",
+   "evidence": "& Brake 교환 외 [필수자격] · 전문학사 이상 · 항공종사자 자격증명 (비행기 항공정비사)",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-16 15:39",
+   "also": []
+  },
+  {
    "id": "lk-345939",
    "source": "linkareer",
    "company": "선진뷰티사이언스",
@@ -902,6 +902,35 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
+   "also": []
+  },
+  {
+   "id": "lk-364527",
+   "source": "linkareer",
+   "company": "한화모멘텀",
+   "title": "[한화모멘텀] 2026년 하반기 채용전제형 신입사원(인턴) 채용",
+   "url": "https://linkareer.com/activity/364527",
+   "apply_url": "",
+   "start": "2026-11-13",
+   "end": "2026-11-30",
+   "fields": [
+    "전체",
+    "해외영업",
+    "환경/안전관리",
+    "설비/기계유지보수",
+    "기계설계/CAD"
+   ],
+   "auto": "",
+   "jobs": [
+    "설비/기계유지보수"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "no",
+   "reason": "2027년 2월 졸업예정 대상",
+   "evidence": "정규 4년제 대학 학사/석사(박사) 기졸업자 또는 2027년 2월 졸업 예정자 (단, 제어설계는 전문학사 대상 전형",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-16 15:39",
    "also": []
   },
   {
