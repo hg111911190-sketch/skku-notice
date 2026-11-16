@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 15:39",
+ "updated": "2026-11-17 04:39",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -29,35 +29,6 @@
   }
  ],
  "items": [
-  {
-   "id": "lk-362507",
-   "source": "linkareer",
-   "company": "비테스코테크놀로지스코리아",
-   "title": "[비테스코테크놀로지스코리아] 이천사업장 11월 신입 및 경력직 채용",
-   "url": "https://linkareer.com/activity/362507",
-   "apply_url": "https://www.vitesco-technologies.com",
-   "start": "2026-11-04",
-   "end": "2026-11-16",
-   "fields": [
-    "시스템/ERP개발",
-    "DevOps/클라우드/보안",
-    "생산/공정관리",
-    "전기/전자/반도체"
-   ],
-   "auto": "",
-   "jobs": [
-    "생산/공정관리",
-    "전기/전자/반도체"
-   ],
-   "intern_type": "체험형 인턴",
-   "status": "ok",
-   "reason": "재학생 지원 가능",
-   "evidence": "자격 및 우대조건 전기/전자공학 또는 관련 전공 재학 중이거나 졸업(예정)인 자 MS Office(Exce",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-06 02:27",
-   "also": []
-  },
   {
    "id": "school-futurecar-67796",
    "source": "school",
@@ -113,24 +84,24 @@
    "also": []
   },
   {
-   "id": "school-skku-141926",
-   "source": "school",
-   "company": "학교 공지",
+   "id": "tg-8a439fc6bee187955c25d74b2fe74a61",
+   "source": "tollgate",
+   "company": "현장실습지원센터",
    "title": "2026학년도 겨울학기 현장실습 학생 지원 신청 안내(~11/29)",
-   "url": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=141926",
+   "url": "https://tollgate.skku.edu/main/board/notice/view.do?encBbsSeq=8a439fc6bee187955c25d74b2fe74a61",
    "apply_url": "",
-   "start": "2026-11-13",
+   "start": "2026-10-30",
    "end": "2026-11-29",
    "fields": [],
    "auto": "",
    "jobs": [],
-   "intern_type": "학교 공지",
+   "intern_type": "학점연계 현장실습",
    "status": "ok",
    "reason": "2학년 이상 대상 (현재 3학년)",
-   "evidence": "참여를 부탁드립니다. ○ 참여자격: 성균관대학교 2학년 이상 재학생 중 2026학년도 겨울학기 학점 인정이 가",
+   "evidence": "여를 부탁드립니다. ○ 참여자격: 성균관대학교 2학년 이상 재학생 중 2026학년도 겨울학기 학점 인정이 가",
    "basis": "본문",
-   "source_name": "학교 공지",
-   "first_seen": "2026-11-13 20:07",
+   "source_name": "현장실습 시스템",
+   "first_seen": "2026-11-17 04:39",
    "also": []
   },
   {
@@ -158,31 +129,6 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-04 15:33",
-   "also": []
-  },
-  {
-   "id": "lk-343500",
-   "source": "linkareer",
-   "company": "주식회사 텍트그룹",
-   "title": "[텍트그룹] [인턴] 인플루언서 커머스 AMD (공동구매 운영 · 물류 오퍼레이션)",
-   "url": "https://linkareer.com/activity/343500",
-   "apply_url": "",
-   "start": "2026-08-18",
-   "end": "2026-11-16",
-   "fields": [
-    "전체"
-   ],
-   "auto": "",
-   "jobs": [
-    "구매"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
    "also": []
   },
   {
@@ -294,6 +240,41 @@
    "also": []
   },
   {
+   "id": "jss-107050",
+   "source": "jasoseol",
+   "company": "지엠테크니컬센터코리아",
+   "title": "2027 채용전환형 동계인턴사원모집",
+   "url": "https://jasoseol.com/recruit/107050",
+   "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM?hiringCompany=983c57f4d0d8017800d50ee3b21d6093&hiringCompany=983c57f4d0d80108487529e4b21d3695",
+   "start": "2026-11-04",
+   "end": "2026-11-19",
+   "fields": [
+    "Advanced Vehicle Development(AVD) ,Surface Vehicle Integration (SVI) , Customer Experience AI Innovation (CXAI)",
+    "Body, Exterior, Chassis and After Service Engineering (BECA)",
+    "Interior/ Seat&Safety/ Thermal Propulsion/Energy Coversion system (ITPE)",
+    "Engineering Excellence (EE)",
+    "Propulsion Controls, Vehicle Performance & Virtual Integration Engineer",
+    "Software and Electronics Engineering (S&E)",
+    "Software and Electronics Engineering (S&E)-CyberSecurity Engineer",
+    "Supplier Quality & Development(SQD) & Operations(Ops)",
+    "Virtual Engineering (VE)",
+    "Manufacturing Engineering (ME)",
+    "Software Engineer (SW)"
+   ],
+   "auto": "",
+   "jobs": [
+    "manufacturing"
+   ],
+   "intern_type": "",
+   "status": "check",
+   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
+   "evidence": "ing 130점 이상. -해외 대학 졸업자 또는 졸업 예정자는 TOEIC 점수 제출이 면제. 인턴 연수기간",
+   "basis": "OCR",
+   "source_name": "자소설닷컴",
+   "first_seen": "2026-11-17 04:39",
+   "also": []
+  },
+  {
    "id": "lk-364093",
    "source": "linkareer",
    "company": "에어퍼스트",
@@ -329,6 +310,32 @@
      "url": "https://jasoseol.com/recruit/107203"
     }
    ]
+  },
+  {
+   "id": "lk-364872",
+   "source": "linkareer",
+   "company": "SK케미칼",
+   "title": "[SK케미칼] 청주공장 의약품 생산·공정관리 담당 신입(전환형 인턴) 모집",
+   "url": "https://linkareer.com/activity/364872",
+   "apply_url": "https://www.skchemicals.com/",
+   "start": "2026-11-16",
+   "end": "2026-11-29",
+   "fields": [
+    "생산/공정관리"
+   ],
+   "auto": "",
+   "jobs": [
+    "생산/공정관리",
+    "공정"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-17 04:39",
+   "also": []
   },
   {
    "id": "lk-348210",
@@ -699,35 +706,6 @@
    "also": []
   },
   {
-   "id": "lk-363226",
-   "source": "linkareer",
-   "company": "한국GM",
-   "title": "[한국GM] 2027 동계인턴사원 모집 (생산/안전/품질)",
-   "url": "https://linkareer.com/activity/363226",
-   "apply_url": "",
-   "start": "2026-11-09",
-   "end": "2026-11-16",
-   "fields": [
-    "생산/공정관리",
-    "품질관리(QC/QA)",
-    "환경/안전관리"
-   ],
-   "auto": "기타 자동차",
-   "jobs": [
-    "생산/공정관리",
-    "품질관리(QC/QA)",
-    "품질"
-   ],
-   "intern_type": "체험형 인턴",
-   "status": "no",
-   "reason": "2027년 2월 졸업예정 대상",
-   "evidence": "참조 [자격요건] - 4년제 대학 학사 혹은 27년 2월 졸업예정자 - 평점 B이상 혹은 4.5점 만점",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-10 12:37",
-   "also": []
-  },
-  {
    "id": "jss-107182",
    "source": "jasoseol",
    "company": "피에스케이",
@@ -905,6 +883,38 @@
    "also": []
   },
   {
+   "id": "jss-107240",
+   "source": "jasoseol",
+   "company": "슈프리마",
+   "title": "2027년 채용연계형 인턴십",
+   "url": "https://jasoseol.com/recruit/107240",
+   "apply_url": "https://hr-suprema.career.greetinghr.com/ko/apply",
+   "start": "2026-11-16",
+   "end": "2026-11-30",
+   "fields": [
+    "SW개발",
+    "응용개발",
+    "BSP개발",
+    "회로설계(EE)",
+    "기구설계(ME)",
+    "AI 알고리즘 개발",
+    "SI영업",
+    "인사(HRM)"
+   ],
+   "auto": "",
+   "jobs": [
+    "회로"
+   ],
+   "intern_type": "",
+   "status": "no",
+   "reason": "2027년 2월 졸업예정 대상",
+   "evidence": "격 ㆍ국내/외 4년제 대학교(원) 기졸업자 또는 '27년 2월 졸업예정이신 분 + 202714 1월부터 풀타임",
+   "basis": "OCR",
+   "source_name": "자소설닷컴",
+   "first_seen": "2026-11-17 04:39",
+   "also": []
+  },
+  {
    "id": "lk-364527",
    "source": "linkareer",
    "company": "한화모멘텀",
@@ -962,6 +972,68 @@
      "url": "https://jasoseol.com/recruit/107154"
     }
    ]
+  },
+  {
+   "id": "jss-107202",
+   "source": "jasoseol",
+   "company": "화신",
+   "title": "2026 하반기 신입(채용연계형인턴) & 경력 채용",
+   "url": "https://jasoseol.com/recruit/107202",
+   "apply_url": "https://hwashin.ninehire.site/",
+   "start": "2026-11-16",
+   "end": "2026-12-06",
+   "fields": [
+    "국내외 마케팅 (채용연계형 인턴)",
+    "생산기술 (채용연계형 인턴)",
+    "품질관리 (채용연계형 인턴)",
+    "설비보전 (채용연계형 인턴)",
+    "안전보건 (채용연계형 인턴)"
+   ],
+   "auto": "",
+   "jobs": [
+    "생산기술",
+    "설비",
+    "품질"
+   ],
+   "intern_type": "",
+   "status": "no",
+   "reason": "2027년 2월 졸업예정 대상",
+   "evidence": "별도, 군필 기준 “AB 자격 : 졸업자 또는 '27년 2월 졸업예정자), 또는 면제자, 해외여행에 결격사유",
+   "basis": "OCR",
+   "source_name": "자소설닷컴",
+   "first_seen": "2026-11-17 04:39",
+   "also": []
+  },
+  {
+   "id": "lk-364846",
+   "source": "linkareer",
+   "company": "화신",
+   "title": "[화신] 2026 화신그룹 채용연계형 인턴 채용",
+   "url": "https://linkareer.com/activity/364846",
+   "apply_url": "https://www.hwashin.co.kr/kr/main.do",
+   "start": "2026-11-16",
+   "end": "2026-12-16",
+   "fields": [
+    "마케팅기획/전략",
+    "생산/공정관리",
+    "품질관리(QC/QA)",
+    "설비/기계유지보수",
+    "전체"
+   ],
+   "auto": "",
+   "jobs": [
+    "생산/공정관리",
+    "품질관리(QC/QA)",
+    "설비/기계유지보수"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "no",
+   "reason": "2027년 2월 졸업예정 대상",
+   "evidence": "- 인턴 자격요건 학사 이상 (기졸업자 또는 ’27년 2월 졸업예정자) 산업안전기사 및 간호사 면허 동시 보",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-17 04:39",
+   "also": []
   },
   {
    "id": "lk-357245",
