@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17 12:56",
+ "updated": "2026-11-18 01:07",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -105,6 +105,45 @@
    "also": []
   },
   {
+   "id": "lk-365248",
+   "source": "linkareer",
+   "company": "파마리서치",
+   "title": "[파마리서치] [현장전문인턴십] 제품 (학력무관)",
+   "url": "https://linkareer.com/activity/365248",
+   "apply_url": "https://pharmaresearch.com/",
+   "start": "2026-11-17",
+   "end": "2026-11-30",
+   "fields": [
+    "생산직/조립/가공",
+    "설비/기계유지보수"
+   ],
+   "auto": "",
+   "jobs": [
+    "설비/기계유지보수"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "ok",
+   "reason": "재학생 지원 가능",
+   "evidence": "[파마리서치] [현장전문인턴십] 제품 (학력무관) [파마리서치] [현장전문인턴십] 제품 (학력무관",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-18 01:07",
+   "also": [
+    {
+     "name": "링커리어",
+     "url": "https://linkareer.com/activity/365247"
+    },
+    {
+     "name": "링커리어",
+     "url": "https://linkareer.com/activity/365246"
+    },
+    {
+     "name": "링커리어",
+     "url": "https://linkareer.com/activity/365236"
+    }
+   ]
+  },
+  {
    "id": "lk-361929",
    "source": "linkareer",
    "company": "사이노슈어 루트로닉",
@@ -129,88 +168,6 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-04 15:33",
-   "also": []
-  },
-  {
-   "id": "lk-362943",
-   "source": "linkareer",
-   "company": "PSK",
-   "title": "[PSK] 11월 직무별 수시모집",
-   "url": "https://linkareer.com/activity/362943",
-   "apply_url": "",
-   "start": "2026-11-09",
-   "end": "2026-11-17",
-   "fields": [
-    "전체",
-    "마케팅기획/전략",
-    "전체",
-    "전체",
-    "전체",
-    "구매/자재관리"
-   ],
-   "auto": "",
-   "jobs": [
-    "구매/자재관리"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-09 15:44",
-   "also": []
-  },
-  {
-   "id": "lk-362249",
-   "source": "linkareer",
-   "company": "코오롱인더스트리",
-   "title": "[코오롱인더스트리] 김천1공장 설비지원 인턴 채용",
-   "url": "https://linkareer.com/activity/362249",
-   "apply_url": "",
-   "start": "2026-11-04",
-   "end": "2026-11-17",
-   "fields": [
-    "전체"
-   ],
-   "auto": "",
-   "jobs": [
-    "설비"
-   ],
-   "intern_type": "체험형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-05 15:55",
-   "also": []
-  },
-  {
-   "id": "jss-107153",
-   "source": "jasoseol",
-   "company": "한국GM",
-   "title": "2027 동계인턴사원 모집 (생산/안전/품질)",
-   "url": "https://jasoseol.com/recruit/107153",
-   "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Incheon-Korea-Republic-of/GM----_JR-202623905-1",
-   "start": "2026-11-09",
-   "end": "2026-11-17",
-   "fields": [
-    "생산",
-    "안전",
-    "품질"
-   ],
-   "auto": "기타 자동차",
-   "jobs": [
-    "품질"
-   ],
-   "intern_type": "",
-   "status": "check",
-   "reason": "공고가 이미지라 자격 미확인 (OCR 대기)",
-   "evidence": "",
-   "basis": "제목",
-   "source_name": "자소설닷컴",
-   "first_seen": "2026-11-14 04:47",
    "also": []
   },
   {
@@ -275,6 +232,64 @@
    "also": []
   },
   {
+   "id": "lk-365238",
+   "source": "linkareer",
+   "company": "오비맥주",
+   "title": "[오비맥주] 청주공장 기술직 인턴 채용",
+   "url": "https://linkareer.com/activity/365238",
+   "apply_url": "https://www.ob.co.kr/",
+   "start": "2026-11-17",
+   "end": "2026-11-25",
+   "fields": [
+    "생산/공정관리",
+    "품질관리(QC/QA)",
+    "환경/안전관리",
+    "생산직/조립/가공",
+    "자재/재고관리",
+    "설비/기계유지보수"
+   ],
+   "auto": "",
+   "jobs": [
+    "생산/공정관리",
+    "품질관리(QC/QA)",
+    "설비/기계유지보수"
+   ],
+   "intern_type": "체험형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-18 01:07",
+   "also": []
+  },
+  {
+   "id": "lk-365242",
+   "source": "linkareer",
+   "company": "인피니언테크놀로지스코리아",
+   "title": "[인피니언테크놀로지스코리아] 2027 Winter Internship",
+   "url": "https://linkareer.com/activity/365242",
+   "apply_url": "https://www.infineon.com/regional/korea/ko",
+   "start": "2026-11-17",
+   "end": "2026-11-25",
+   "fields": [
+    "영업관리/기획",
+    "전기/전자/반도체"
+   ],
+   "auto": "",
+   "jobs": [
+    "전기/전자/반도체"
+   ],
+   "intern_type": "체험형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-18 01:07",
+   "also": []
+  },
+  {
    "id": "lk-364093",
    "source": "linkareer",
    "company": "에어퍼스트",
@@ -310,32 +325,6 @@
      "url": "https://jasoseol.com/recruit/107203"
     }
    ]
-  },
-  {
-   "id": "lk-364872",
-   "source": "linkareer",
-   "company": "SK케미칼",
-   "title": "[SK케미칼] 청주공장 의약품 생산·공정관리 담당 신입(전환형 인턴) 모집",
-   "url": "https://linkareer.com/activity/364872",
-   "apply_url": "https://www.skchemicals.com/",
-   "start": "2026-11-16",
-   "end": "2026-11-29",
-   "fields": [
-    "생산/공정관리"
-   ],
-   "auto": "",
-   "jobs": [
-    "생산/공정관리",
-    "공정"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-17 04:39",
-   "also": []
   },
   {
    "id": "lk-348210",
@@ -706,46 +695,6 @@
    "also": []
   },
   {
-   "id": "jss-107182",
-   "source": "jasoseol",
-   "company": "피에스케이",
-   "title": "[PSK그룹] 11월 직무별 수시모집",
-   "url": "https://jasoseol.com/recruit/107182",
-   "apply_url": "https://psk.recruiter.co.kr/career/jobs/133740",
-   "start": "2026-11-07",
-   "end": "2026-11-17",
-   "fields": [
-    "PSK/PSKH-기술영업-인턴",
-    "PSK/PSKH-공정개발-인턴",
-    "PSK/PSKH-기구설계-인턴",
-    "PSK/PSKH-전장설계-인턴",
-    "PSK/PSKH-전장설계(Laser)-인턴",
-    "PSK/PSKH-요소기술 개발 (Plasma source)-인턴",
-    "PSK/PSKH-요소기술개발(Laser)-인턴",
-    "PSK/PSKH-S/W개발-인턴",
-    "PSK/PSKH-구매관리-인턴",
-    "PSK/PSKH-전략/개발구매-신입",
-    "PSK/PSKH-물류관리-인턴",
-    "PSK/PSKH-생산관리-인턴",
-    "PSK/PSKH-부품영업(GLS)-인턴"
-   ],
-   "auto": "",
-   "jobs": [
-    "전장",
-    "생산관리",
-    "공정",
-    "구매"
-   ],
-   "intern_type": "",
-   "status": "no",
-   "reason": "졸업자 대상",
-   "evidence": "/중국어 가능자 우대 필수사항 Jol 사항: 학사 이상 : 산업공학/통계학, 컴퓨터공학 정보학, 전기전자",
-   "basis": "OCR",
-   "source_name": "자소설닷컴",
-   "first_seen": "2026-11-12 02:14",
-   "also": []
-  },
-  {
    "id": "lk-362081",
    "source": "linkareer",
    "company": "현대백화점",
@@ -881,6 +830,38 @@
    "source_name": "링커리어",
    "first_seen": "2026-11-01 13:38",
    "also": []
+  },
+  {
+   "id": "lk-365089",
+   "source": "linkareer",
+   "company": "SK케미칼",
+   "title": "[SK케미칼] 청주공장 의약품 생산·공정관리 담당 신입(전환형 인턴) 모집",
+   "url": "https://linkareer.com/activity/365089",
+   "apply_url": "https://www.skchemicals.com/",
+   "start": "2026-11-16",
+   "end": "2026-11-29",
+   "fields": [
+    "생산/공정관리",
+    "바이오/제약연구개발"
+   ],
+   "auto": "",
+   "jobs": [
+    "생산/공정관리",
+    "공정"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "no",
+   "reason": "2027년 2월 졸업예정 대상",
+   "evidence": "자동화 [필수사항] - 학력 : 학사 이상(‘27년도 2월 졸업예정자 및 취업계 사용 인원 지원 가능)",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-18 01:07",
+   "also": [
+    {
+     "name": "링커리어",
+     "url": "https://linkareer.com/activity/364872"
+    }
+   ]
   },
   {
    "id": "jss-107240",
