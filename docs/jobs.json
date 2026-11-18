@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18 09:59",
+ "updated": "2026-11-18 20:51",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -144,59 +144,6 @@
    ]
   },
   {
-   "id": "lk-361929",
-   "source": "linkareer",
-   "company": "사이노슈어 루트로닉",
-   "title": "의료기기 연구&개발 Assistant (Verification)",
-   "url": "https://linkareer.com/activity/361929",
-   "apply_url": "https://kr.lutronic.com/index.html",
-   "start": "2026-11-04",
-   "end": "2027-02-02",
-   "fields": [
-    "기계/자동차/조선",
-    "전기/전자/반도체",
-    "바이오/제약연구개발"
-   ],
-   "auto": "",
-   "jobs": [
-    "전기/전자/반도체"
-   ],
-   "intern_type": "체험형 인턴",
-   "status": "ok",
-   "reason": "재학생 지원 가능",
-   "evidence": "분 전문학사 이상의 학위 소지자 (졸업 예정자, 휴학생 가능) 꼼꼼함과 정확성을 바탕으로 검증 및 측정",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-04 15:33",
-   "also": []
-  },
-  {
-   "id": "lk-363930",
-   "source": "linkareer",
-   "company": "유한화학",
-   "title": "[유한화학] 생산관리자 채용전환형 인턴 사원 모집 (2026년 11월)",
-   "url": "https://linkareer.com/activity/363930",
-   "apply_url": "https://yhc.recruiter.co.kr/career/home",
-   "start": "2026-11-13",
-   "end": "2026-11-19",
-   "fields": [
-    "생산/공정관리"
-   ],
-   "auto": "",
-   "jobs": [
-    "생산/공정관리",
-    "생산관리"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
-   "evidence": "업무 대응 [필수사항] · 4년제 대학교 졸업(예정)자 [우대사항] · 원료의약품 관련 생산관리",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-12 20:23",
-   "also": []
-  },
-  {
    "id": "jss-107050",
    "source": "jasoseol",
    "company": "지엠테크니컬센터코리아",
@@ -229,6 +176,32 @@
    "basis": "OCR",
    "source_name": "자소설닷컴",
    "first_seen": "2026-11-17 04:39",
+   "also": []
+  },
+  {
+   "id": "lk-363930",
+   "source": "linkareer",
+   "company": "유한화학",
+   "title": "[유한화학] 생산관리자 채용전환형 인턴 사원 모집 (2026년 11월)",
+   "url": "https://linkareer.com/activity/363930",
+   "apply_url": "https://yhc.recruiter.co.kr/career/home",
+   "start": "2026-11-13",
+   "end": "2026-11-22",
+   "fields": [
+    "생산/공정관리"
+   ],
+   "auto": "",
+   "jobs": [
+    "생산/공정관리",
+    "생산관리"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "check",
+   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
+   "evidence": "업무 대응 [필수사항] · 4년제 대학교 졸업(예정)자 [우대사항] · 원료의약품 관련 생산관리",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-12 20:23",
    "also": []
   },
   {
@@ -695,6 +668,32 @@
    "also": []
   },
   {
+   "id": "lk-365291",
+   "source": "linkareer",
+   "company": "그리드위즈",
+   "title": "[그리드위즈] 글로벌 에너지 솔루션 사업개발 인턴 (Tech)",
+   "url": "https://linkareer.com/activity/365291",
+   "apply_url": "https://www.gridwiz.com/kr/",
+   "start": "2026-11-18",
+   "end": "2027-02-16",
+   "fields": [
+    "전기/전자/반도체",
+    "화학/에너지/환경"
+   ],
+   "auto": "",
+   "jobs": [
+    "전기/전자/반도체"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "check",
+   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
+   "evidence": "ㅣ 지원 자격 ㅣ 필수 요건 4년제 대학 졸업 예정자 우대 사항 전기·전자·기계·화학·에너지·",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-18 20:51",
+   "also": []
+  },
+  {
    "id": "lk-362081",
    "source": "linkareer",
    "company": "현대백화점",
@@ -983,6 +982,32 @@
    "basis": "OCR",
    "source_name": "자소설닷컴",
    "first_seen": "2026-11-17 04:39",
+   "also": []
+  },
+  {
+   "id": "lk-365379",
+   "source": "linkareer",
+   "company": "SK가스",
+   "title": "[SK가스] 2027년 상반기 SK가스 기술엔지니어(설비기술) 채용연계형 인턴 모집",
+   "url": "https://linkareer.com/activity/365379",
+   "apply_url": "https://skgas.co.kr/main/index.html",
+   "start": "2026-11-17",
+   "end": "2026-12-07",
+   "fields": [
+    "생산직/조립/가공",
+    "화학/에너지/환경"
+   ],
+   "auto": "",
+   "jobs": [
+    "설비"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "no",
+   "reason": "2027년 2월 졸업예정 대상",
+   "evidence": "· 4년제 정규 대학(원) 이상 (기 졸업 또는 '27년 2월 졸업 예정) · '27년 1~3월 중 8주간",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-18 20:51",
    "also": []
   },
   {
