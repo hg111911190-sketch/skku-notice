@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 11:37",
+ "updated": "2026-11-19 20:48",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -431,6 +431,33 @@
    "also": []
   },
   {
+   "id": "lk-365699",
+   "source": "linkareer",
+   "company": "케이시크릿",
+   "title": "[케이시크릿] 글로벌 화장품 유통 Operation Manager 인턴 채용",
+   "url": "https://linkareer.com/activity/365699",
+   "apply_url": "https://ksecret.co.kr/",
+   "start": "2026-11-19",
+   "end": "2026-12-31",
+   "fields": [
+    "구매/자재관리",
+    "물류/SCM관리",
+    "배송/운송/화물"
+   ],
+   "auto": "",
+   "jobs": [
+    "구매/자재관리"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-19 20:48",
+   "also": []
+  },
+  {
    "id": "lk-355055",
    "source": "linkareer",
    "company": "카카오스타일",
@@ -776,6 +803,32 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-16 15:39",
+   "also": []
+  },
+  {
+   "id": "lk-365691",
+   "source": "linkareer",
+   "company": "동아오츠카",
+   "title": "[동아오츠카] 칠서캠퍼스 엔지니어링팀 (전기) 인턴 채용",
+   "url": "https://linkareer.com/activity/365691",
+   "apply_url": "https://www.donga-otsuka.co.kr/",
+   "start": "2026-11-19",
+   "end": "2026-11-24",
+   "fields": [
+    "전기/전자/반도체"
+   ],
+   "auto": "",
+   "jobs": [
+    "전기/전자/반도체",
+    "전기"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "no",
+   "reason": "졸업자 대상",
+   "evidence": "정규직 전환 여부 결정 [필수요건] · 초대졸 이상 · 에너지관리산업기사 이상 · 공조,냉동",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-19 20:48",
    "also": []
   },
   {
