@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 20:48",
+ "updated": "2026-11-20 05:43",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -142,41 +142,6 @@
      "url": "https://linkareer.com/activity/365236"
     }
    ]
-  },
-  {
-   "id": "jss-107050",
-   "source": "jasoseol",
-   "company": "지엠테크니컬센터코리아",
-   "title": "2027 채용전환형 동계인턴사원모집",
-   "url": "https://jasoseol.com/recruit/107050",
-   "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM?hiringCompany=983c57f4d0d8017800d50ee3b21d6093&hiringCompany=983c57f4d0d80108487529e4b21d3695",
-   "start": "2026-11-04",
-   "end": "2026-11-19",
-   "fields": [
-    "Advanced Vehicle Development(AVD) ,Surface Vehicle Integration (SVI) , Customer Experience AI Innovation (CXAI)",
-    "Body, Exterior, Chassis and After Service Engineering (BECA)",
-    "Interior/ Seat&Safety/ Thermal Propulsion/Energy Coversion system (ITPE)",
-    "Engineering Excellence (EE)",
-    "Propulsion Controls, Vehicle Performance & Virtual Integration Engineer",
-    "Software and Electronics Engineering (S&E)",
-    "Software and Electronics Engineering (S&E)-CyberSecurity Engineer",
-    "Supplier Quality & Development(SQD) & Operations(Ops)",
-    "Virtual Engineering (VE)",
-    "Manufacturing Engineering (ME)",
-    "Software Engineer (SW)"
-   ],
-   "auto": "",
-   "jobs": [
-    "manufacturing"
-   ],
-   "intern_type": "",
-   "status": "check",
-   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
-   "evidence": "ing 130점 이상. -해외 대학 졸업자 또는 졸업 예정자는 TOEIC 점수 제출이 면제. 인턴 연수기간",
-   "basis": "OCR",
-   "source_name": "자소설닷컴",
-   "first_seen": "2026-11-17 04:39",
-   "also": []
   },
   {
    "id": "lk-363930",
