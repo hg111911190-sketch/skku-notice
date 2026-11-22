@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22 20:33",
+ "updated": "2026-11-23 04:45",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -142,32 +142,6 @@
      "url": "https://linkareer.com/activity/365236"
     }
    ]
-  },
-  {
-   "id": "lk-363930",
-   "source": "linkareer",
-   "company": "유한화학",
-   "title": "[유한화학] 생산관리자 채용전환형 인턴 사원 모집 (2026년 11월)",
-   "url": "https://linkareer.com/activity/363930",
-   "apply_url": "https://yhc.recruiter.co.kr/career/home",
-   "start": "2026-11-13",
-   "end": "2026-11-22",
-   "fields": [
-    "생산/공정관리"
-   ],
-   "auto": "",
-   "jobs": [
-    "생산/공정관리",
-    "생산관리"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "check",
-   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
-   "evidence": "업무 대응 [필수사항] · 4년제 대학교 졸업(예정)자 [우대사항] · 원료의약품 관련 생산관리",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-12 20:23",
-   "also": []
   },
   {
    "id": "lk-365238",
@@ -683,91 +657,6 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-18 20:51",
-   "also": []
-  },
-  {
-   "id": "lk-364103",
-   "source": "linkareer",
-   "company": "KLA",
-   "title": "[KLA] 2026년 11월 신입 정규직 채용",
-   "url": "https://linkareer.com/activity/364103",
-   "apply_url": "https://www.kla.com/ko",
-   "start": "2026-11-13",
-   "end": "2026-11-22",
-   "fields": [
-    "데이터분석",
-    "설비/기계유지보수",
-    "전기/전자/반도체",
-    "전체"
-   ],
-   "auto": "",
-   "jobs": [
-    "설비/기계유지보수",
-    "전기/전자/반도체"
-   ],
-   "intern_type": "체험형 인턴",
-   "status": "no",
-   "reason": "2027년 2월 졸업예정 대상",
-   "evidence": "- 인턴 자격요건 ㆍ4년제 이공계열 학사 2027년 2월 졸업예정자 ㆍ전기/전자, 기계, 물리, 광학, 신",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-13 05:00",
-   "also": []
-  },
-  {
-   "id": "lk-344922",
-   "source": "linkareer",
-   "company": "경창산업",
-   "title": "[경창산업] 구매관리팀 신입 · 경력 모집",
-   "url": "https://linkareer.com/activity/344922",
-   "apply_url": "https://www.kc.co.kr/kci/index.do",
-   "start": "2026-08-24",
-   "end": "2026-11-22",
-   "fields": [
-    "구매/자재관리"
-   ],
-   "auto": "",
-   "jobs": [
-    "구매/자재관리",
-    "구매"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "no",
-   "reason": "졸업자 대상",
-   "evidence": "관리팀 신입 · 경력 모집 [공통요건] - 학력 : ​4년제 ​대학졸업 ​(기계/자동차공학, 전기/전자공학, ​산업공학)",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
-   "also": [
-    {
-     "name": "링커리어",
-     "url": "https://linkareer.com/activity/344918"
-    }
-   ]
-  },
-  {
-   "id": "lk-364614",
-   "source": "linkareer",
-   "company": "한국공항",
-   "title": "[한국공항] [26년 12월] 항공정비 신입사원 모집",
-   "url": "https://linkareer.com/activity/364614",
-   "apply_url": "https://www.kas.co.kr/",
-   "start": "2026-11-16",
-   "end": "2026-11-22",
-   "fields": [
-    "기계/자동차/조선"
-   ],
-   "auto": "",
-   "jobs": [
-    "공정"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "no",
-   "reason": "졸업자 대상",
-   "evidence": "& Brake 교환 외 [필수자격] · 전문학사 이상 · 항공종사자 자격증명 (비행기 항공정비사)",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-16 15:39",
    "also": []
   },
   {
