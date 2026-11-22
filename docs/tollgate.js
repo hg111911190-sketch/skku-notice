@@ -1,1 +1,1 @@
-window.TOLLGATE = {"checked": "2026-11-22 09:46", "ok": 30, "check": 1, "next_end": "2026-11-22", "url": "https://tollgate.skku.edu/index.do"};
+window.TOLLGATE = {"checked": "2026-11-22 13:05", "ok": 30, "check": 1, "next_end": "2026-11-22", "url": "https://tollgate.skku.edu/index.do"};
