@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 10:47",
+ "updated": "2026-11-23 21:57",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -29,6 +29,31 @@
   }
  ],
  "items": [
+  {
+   "id": "lk-365078",
+   "source": "linkareer",
+   "company": "주식회사 프로젝트에듀",
+   "title": "[프로젝트에듀] 코드크루｜구미전자공업고등학교 C언어 강사 13명 모집",
+   "url": "https://linkareer.com/activity/365078",
+   "apply_url": "",
+   "start": "2026-11-17",
+   "end": "2026-11-27",
+   "fields": [
+    "전문직업/IT강사"
+   ],
+   "auto": "",
+   "jobs": [
+    "전자"
+   ],
+   "intern_type": "",
+   "status": "ok",
+   "reason": "3학년 이상 대상 (현재 3학년)",
+   "evidence": "포함되어 있습니다. 🙋 지원 자격 - 대학교 3학년 이상 재학생·휴학생, 졸업예정자 및 졸업자 - C언어",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-23 21:57",
+   "also": []
+  },
   {
    "id": "school-futurecar-67796",
    "source": "school",
@@ -199,6 +224,32 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-18 01:07",
+   "also": []
+  },
+  {
+   "id": "lk-366210",
+   "source": "linkareer",
+   "company": "EY한영",
+   "title": "[EY한영] 품질위험관리부문(Risk Management) 독립성팀 인턴",
+   "url": "https://linkareer.com/activity/366210",
+   "apply_url": "https://www.ey.com/ko_kr",
+   "start": "2026-11-23",
+   "end": "2026-11-26",
+   "fields": [
+    "총무/법무/비서",
+    "사무/문서관리"
+   ],
+   "auto": "",
+   "jobs": [
+    "품질"
+   ],
+   "intern_type": "체험형 인턴",
+   "status": "check",
+   "reason": "지원 자격 정보 없음",
+   "evidence": "",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-23 21:57",
    "also": []
   },
   {
@@ -833,6 +884,34 @@
      "url": "https://jasoseol.com/recruit/107154"
     }
    ]
+  },
+  {
+   "id": "lk-366291",
+   "source": "linkareer",
+   "company": "엘앤에프",
+   "title": "[엘앤에프] 생산기술원(설비개발) 신입/경력사원 채용",
+   "url": "https://linkareer.com/activity/366291",
+   "apply_url": "https://www.landf.co.kr/",
+   "start": "2026-11-23",
+   "end": "2026-12-06",
+   "fields": [
+    "설비/기계유지보수",
+    "기계설계/CAD"
+   ],
+   "auto": "",
+   "jobs": [
+    "설비/기계유지보수",
+    "생산기술",
+    "설비"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "no",
+   "reason": "졸업자 대상",
+   "evidence": "[지원 자격] · 학력 : 대졸(4년제) 학사 이상 · 전공 : 기계공학 계열 학과 · 경력",
+   "basis": "본문",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-23 21:57",
+   "also": []
   },
   {
    "id": "jss-107202",
