@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24 11:16",
+ "updated": "2026-11-24 22:50",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -552,31 +552,6 @@
    "also": []
   },
   {
-   "id": "lk-360985",
-   "source": "linkareer",
-   "company": "주식회사 더파운더즈",
-   "title": "[ANUA] 글로벌 SCM&물류 운영 인턴 (발주·수출)",
-   "url": "https://linkareer.com/activity/360985",
-   "apply_url": "https://thefounders.careers/",
-   "start": "2026-10-30",
-   "end": "2027-01-28",
-   "fields": [
-    "물류/SCM관리"
-   ],
-   "auto": "",
-   "jobs": [
-    "scm"
-   ],
-   "intern_type": "체험형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-02 20:19",
-   "also": []
-  },
-  {
    "id": "lk-361716",
    "source": "linkareer",
    "company": "와이즐리컴퍼니",
@@ -886,21 +861,21 @@
    ]
   },
   {
-   "id": "lk-366291",
+   "id": "lk-366567",
    "source": "linkareer",
    "company": "엘앤에프",
    "title": "[엘앤에프] 생산기술원(설비개발) 신입/경력사원 채용",
-   "url": "https://linkareer.com/activity/366291",
+   "url": "https://linkareer.com/activity/366567",
    "apply_url": "https://www.landf.co.kr/",
-   "start": "2026-11-23",
+   "start": "2026-11-24",
    "end": "2026-12-06",
    "fields": [
-    "설비/기계유지보수",
+    "생산/공정관리",
     "기계설계/CAD"
    ],
    "auto": "",
    "jobs": [
-    "설비/기계유지보수",
+    "생산/공정관리",
     "생산기술",
     "설비"
    ],
@@ -910,8 +885,13 @@
    "evidence": "[지원 자격] · 학력 : 대졸(4년제) 학사 이상 · 전공 : 기계공학 계열 학과 · 경력",
    "basis": "본문",
    "source_name": "링커리어",
-   "first_seen": "2026-11-23 21:57",
-   "also": []
+   "first_seen": "2026-11-24 22:50",
+   "also": [
+    {
+     "name": "링커리어",
+     "url": "https://linkareer.com/activity/366291"
+    }
+   ]
   },
   {
    "id": "jss-107202",
