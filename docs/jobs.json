@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 08:56",
+ "updated": "2026-11-25 17:43",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -683,6 +683,34 @@
    "basis": "본문",
    "source_name": "링커리어",
    "first_seen": "2026-11-18 20:51",
+   "also": []
+  },
+  {
+   "id": "lk-366934",
+   "source": "linkareer",
+   "company": "씨드앤",
+   "title": "[씨드앤] R&D 인턴",
+   "url": "https://linkareer.com/activity/366934",
+   "apply_url": "https://www.seedn.co.kr/",
+   "start": "2026-11-25",
+   "end": "2027-02-23",
+   "fields": [
+    "AI/ML엔지니어",
+    "전기/전자/반도체",
+    "화학/에너지/환경",
+    "기계설계/CAD"
+   ],
+   "auto": "",
+   "jobs": [
+    "전기/전자/반도체"
+   ],
+   "intern_type": "채용연계형 인턴",
+   "status": "check",
+   "reason": "졸업예정자 대상 (졸업 시기 미기재)",
+   "evidence": "자 하시는 분 ㆍ2년제 이상 대학을 졸업하셨거나 졸업 예정이신 분 ㆍ도메인 지식 및 논리적 사고와 데이터",
+   "basis": "OCR",
+   "source_name": "링커리어",
+   "first_seen": "2026-11-25 17:43",
    "also": []
   },
   {
