@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 17:43",
+ "updated": "2026-11-26 04:22",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -167,64 +167,6 @@
      "url": "https://linkareer.com/activity/365236"
     }
    ]
-  },
-  {
-   "id": "lk-365238",
-   "source": "linkareer",
-   "company": "오비맥주",
-   "title": "[오비맥주] 청주공장 기술직 인턴 채용",
-   "url": "https://linkareer.com/activity/365238",
-   "apply_url": "https://www.ob.co.kr/",
-   "start": "2026-11-17",
-   "end": "2026-11-25",
-   "fields": [
-    "생산/공정관리",
-    "품질관리(QC/QA)",
-    "환경/안전관리",
-    "생산직/조립/가공",
-    "자재/재고관리",
-    "설비/기계유지보수"
-   ],
-   "auto": "",
-   "jobs": [
-    "생산/공정관리",
-    "품질관리(QC/QA)",
-    "설비/기계유지보수"
-   ],
-   "intern_type": "체험형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-18 01:07",
-   "also": []
-  },
-  {
-   "id": "lk-365242",
-   "source": "linkareer",
-   "company": "인피니언테크놀로지스코리아",
-   "title": "[인피니언테크놀로지스코리아] 2027 Winter Internship",
-   "url": "https://linkareer.com/activity/365242",
-   "apply_url": "https://www.infineon.com/regional/korea/ko",
-   "start": "2026-11-17",
-   "end": "2026-11-25",
-   "fields": [
-    "영업관리/기획",
-    "전기/전자/반도체"
-   ],
-   "auto": "",
-   "jobs": [
-    "전기/전자/반도체"
-   ],
-   "intern_type": "체험형 인턴",
-   "status": "check",
-   "reason": "지원 자격 정보 없음",
-   "evidence": "",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-18 01:07",
-   "also": []
   },
   {
    "id": "lk-366210",
@@ -711,32 +653,6 @@
    "basis": "OCR",
    "source_name": "링커리어",
    "first_seen": "2026-11-25 17:43",
-   "also": []
-  },
-  {
-   "id": "lk-345939",
-   "source": "linkareer",
-   "company": "선진뷰티사이언스",
-   "title": "[선진뷰티사이언스] 구매 (Procurement Specialist) 부문 채용",
-   "url": "https://linkareer.com/activity/345939",
-   "apply_url": "https://www.sunjinbs.com/en/main/",
-   "start": "2026-08-27",
-   "end": "2026-11-25",
-   "fields": [
-    "전체"
-   ],
-   "auto": "",
-   "jobs": [
-    "구매",
-    "procurement"
-   ],
-   "intern_type": "채용연계형 인턴",
-   "status": "no",
-   "reason": "졸업자 대상",
-   "evidence": "과 납기를 관리합니다. [자격요건] -4년제 대학 졸업 이상 -밝고 적극적인 성향으로 다양한 부서 및 협력사",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-01 13:38",
    "also": []
   },
   {
