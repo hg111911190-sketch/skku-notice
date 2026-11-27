@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 21:34",
+ "updated": "2026-11-28 08:30",
  "profile": {
   "grad": "2028년 2월",
   "grade": 3,
@@ -29,31 +29,6 @@
   }
  ],
  "items": [
-  {
-   "id": "lk-365078",
-   "source": "linkareer",
-   "company": "주식회사 프로젝트에듀",
-   "title": "[프로젝트에듀] 코드크루｜구미전자공업고등학교 C언어 강사 13명 모집",
-   "url": "https://linkareer.com/activity/365078",
-   "apply_url": "",
-   "start": "2026-11-17",
-   "end": "2026-11-27",
-   "fields": [
-    "전문직업/IT강사"
-   ],
-   "auto": "",
-   "jobs": [
-    "전자"
-   ],
-   "intern_type": "",
-   "status": "ok",
-   "reason": "3학년 이상 대상 (현재 3학년)",
-   "evidence": "포함되어 있습니다. 🙋 지원 자격 - 대학교 3학년 이상 재학생·휴학생, 졸업예정자 및 졸업자 - C언어",
-   "basis": "본문",
-   "source_name": "링커리어",
-   "first_seen": "2026-11-23 21:57",
-   "also": []
-  },
   {
    "id": "school-futurecar-67796",
    "source": "school",
